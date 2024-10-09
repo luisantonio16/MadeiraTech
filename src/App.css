@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Poppins:wght@100;200;300;400;500;600;700;800&family=Roboto:wght@100;300;400;500;700&family=Sassy+Frass&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+}
+
+:root{
+  --color-Primary:#375B7D;
+  --color-secundary:#9C5E35;
+}
+
+.header{
+  width: 100%;
+  background-color: #e0e0e0b0;
+
+}
+.contenedor-principal{
+  width: 100%;
+  overflow: hidden;
+}
+.header-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  width: 90%;
+  max-width: 1400px;
+  padding: 8px;
+}
+.logo-nav{
+  width: 200px;
+}
+.header-menu{
+  width: 60%;
+  max-width: 800px;
+}
+.nav{
+  width: 100%;
+  display: block;
+  position: relative;
+}
+ .container-nav{
+  display: flex;
+justify-content: space-around;
+}
+
+/*Nav-links*/
+.nav-items{
+  text-decoration: none;
+  color:var(--color-secundary);
+  font-size: 16px;
+  font-weight: 500;
+  transition: all 300ms ease;
+}
+
+.active{
+  color: var(--color-Primary);
+}
+
+.header-menu--responsive{
+  display: none;
+}
+
+.header-menu-responsive-Logo{
+  display: none;
+}
+
+
+/*header-menuProductos*/
+.header-menuProductos{
+  width: 100%;
+  padding: 20px;
+  overflow: hidden;
+  background-color: var(--color-Primary);
+
+}
+.menu-Productos{
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.menu-productos--link{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 300;
+  margin-right: 100px;
+
+}
+.link-plus{
+  width: 22px;
+  margin-left: 10px;
+}
+
+
+/**/
+.slider-home-imagen{
+  width: 100%;
+  height: 600px;
+  overflow: hidden;
+
+}
+.imagen-container{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.slider-container{
+      position: relative;
+}
+.slider-texto{
+  position: absolute;
+  top: 30%;
+  left: 0;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  text-align: left;
+
+}
+.slider-imagen{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.slider-titulo{
+  color: white;
+  font-size: 40px;
+  font-weight: 500;
+  margin: 10px 0;
+  text-shadow: black 0.1em 0.1em 0.2em;
+ 
+}
+.slider-parrafo{
+  color: white;
+  font-size: 20px;
+  font-weight: 300;
+  margin: 10px 0;
+  text-align: left;
+  text-shadow: rgba(0, 0, 0, 0.795) 0.1em 0.1em 0.2em;
+
+}
+.slider-btn{
+  width: 150px;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 10px 0;
+  color: white;
+  background-color: var(--color-secundary);
+  text-align: center;
+  transition: all 300ms ease-out;
+  cursor: pointer;
+}
+.slider-btn:hover{
+  background-color: #A77350
+}
+
+/* Cambia el color de todos los bullets a blanco */
+.swiper-pagination-bullet {
+  background-color: white !important;
+  opacity: 0.7; /* Hace que los bullets inactivos sean un poco más transparentes */
+}
+
+/* Cambia el color del bullet activo a blanco */
+.swiper-pagination-bullet-active {
+  background-color: white !important;
+  opacity: 1; /* Hace que el bullet activo sea completamente opaco */
+}

@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Poppins:wght@100;200;300;400;500;600;700;800&family=Roboto:wght@100;300;400;500;700&family=Sassy+Frass&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+
+:root {
+    --color-Primary: #375B7D;
+    --color-secundary: #9C5E35;
+    --color-parrafo: #636161;
+}
+.contacto{
+    display: block;
+    width: 100%;
+    position: relative;
+}
+.footer-componente{
+    display: block;
+    position: relative;
+    bottom: 0;
+
+}
+.contacto-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px auto;
+    width: 90%;
+    max-width: 1200px;
+    height: 900px;
+}
+.contacto-imagenes{
+    position: relative;
+    z-index: 3;
+}
+
+.contact-img{
+    position: relative;
+    display: block;
+    width: 450px;
+    height: 340px;
+    z-index: 4;
+    border-radius: 8px;
+}
+.contacto-imagenes::after{
+    content: "";
+    position: absolute;
+    top: 60px;
+    right: -25px;
+    width: 400px;
+    height: 300px;
+    border: 2px solid var(--color-Primary);
+    z-index: 1;
+    border-radius: 5px;
+}
+
+
+
+/*Contacto Formulario*/
+.contacto-formulario{
+    display: block;
+    width: 60%;
+    max-width: 650px;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 20px;
+}
+.contacto-titulo{
+    font-size: 30px;
+    font-weight: 600;
+    color: var(--color-Primary);
+   text-align: center;
+}
+.form-inpunts{
+    display: block;
+    width: 100%;
+    max-width: 300px;
+    margin: 10px ;
+}
+.inpunts{
+    display: block;
+    width: 100%;
+    max-width: 260px;
+    padding: 8px 8px;
+    border: none;
+    border-bottom: 1px solid var(--color-Primary);
+    outline: none;
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--color-secundary);
+    transition: border-bottom-color 0.3s ease;
+    border-radius: 1px;
+    
+}
+
+.inpunts:focus {
+    border-bottom-color: var(--color-secundary); /* Cambia el color en focus */
+  }
+
+.form-select{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.otherOption{
+    color: var(--color-Primary);
+}
+.select{
+    display: block;
+    width: 70%;
+    max-width: 210px;
+    margin: 20px 4px;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid var(--color-Primary);
+    outline: none;
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--color-Primary);;
+    transition: border-bottom-color 0.3s ease;
+    border-radius: 1px;
+}
+
+.form-select--textArea{
+    display: block;
+    margin-top: 30px;
+    width: 100%;
+}
+.form-textArea{
+    display: block;
+    width: 100%;
+    height: 180px;
+    border-bottom: 1px solid var(--color-Primary);
+    color: var(--color-secundary);
+    font-weight: 400;
+
+}
+.form-checkBox{
+    display: block;
+    margin-top: 15px;
+}
+.form-checkBox span{
+    font-size: 16px;
+    font-weight: 300;
+    color: var(--color-Primary);
+}
+.form-enviar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    width: 100%;
+}
+.form-btn{
+    display: block;
+    width: 30%;
+    max-width: 260px;
+    padding: 10px;
+    background-color: var(--color-Primary);
+    color: white;
+    border-radius: 10px;
+    transition: all 5ms ease-out;
+    cursor: pointer;
+}
+.form-btn:hover{
+    background-color: var(--color-secundary);
+}
