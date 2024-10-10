@@ -138,7 +138,6 @@
 .home-about {
     display: block;
     width: 100%;
-   
 }
 
 .home-about-container--imagen {
@@ -151,6 +150,8 @@
 
 .imagen-container {
     display: block;
+    width: 100%;
+    height: 100%;
     position: relative;
     overflow: hidden;
 }
@@ -697,21 +698,22 @@ ul li {
 }
 
 .home-about-container--imagen {
-    flex-wrap: wrap;
     width: 100%;
+    height: 660px;
+    overflow: hidden;
 }
 
 .imagen-container {
-    display: block;
-    position: relative;
-    width: 50%;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
 }
 .home-about-imagen{
     display: block;
     width: 100%;
     z-index: 10;
 }
-.imagen-container:hover .img {
+.imagen-container:hover  {
     -webkit-transform: scale(1.2);
     transform: scale(1.2);
 }

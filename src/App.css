@@ -173,3 +173,27 @@ justify-content: space-around;
   background-color: white !important;
   opacity: 1; /* Hace que el bullet activo sea completamente opaco */
 }
+
+.productos{
+  display: block;
+  width: 100%;
+}
+.productos-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin:100px auto;
+  width: 100%;
+}
+.productos-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin:100px auto;
+  width: 100%;
+}
+
+.productos-container h2{
+  font-size: 40px;
+ color: var(--color-Primary);
+}

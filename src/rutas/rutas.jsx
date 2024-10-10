@@ -5,6 +5,7 @@ import Home from '../componentes/home';
 import Contacto from '../componentes/contacto';
 import AboutUs from '../componentes/AboutUs';
 import MenuProductos from '../componentes/menuProductos';
+import Productos from '../componentes/Productos';
 
 
 const Rutas = () => {
@@ -20,6 +21,7 @@ const Rutas = () => {
                     <Route path='/inicio' element={<Home />} />  
                     <Route path='/contacto' element={<Contacto />} />  
                     <Route path='/about' element={<AboutUs />} />  
+                    <Route path='/productos' element={<Productos />} /> 
                 </Routes>
              </section>
         
