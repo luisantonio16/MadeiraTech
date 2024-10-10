@@ -29,7 +29,7 @@ const SliderHeader = () => {
                   }}
                  speed={2000}
                 modules={[Pagination, Autoplay]}
-                className="mySwiper imagen-container"
+                className="mySwiper imagen-container--slider"
             >
                 <SwiperSlide className='slider-container'>
                     <div className='slider-texto'>
