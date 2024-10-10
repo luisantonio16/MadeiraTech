@@ -143,10 +143,10 @@
 
 .home-about-container--imagen {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    width: 100%;
+    justify-content: space-around;
+    align-items: stretch;
+    height: 750px;
+    overflow: hidden;
 }
 
 .imagen-container {
@@ -159,7 +159,7 @@
     width: 100%;
     z-index: 10;
 }
-.imagen-container:hover .img {
+.imagen-container:hover {
     -webkit-transform: scale(1.2);
     transform: scale(1.2);
 }
@@ -178,6 +178,12 @@
 .imagen-subtitulo{
     font-size: 20px;
     text-align: justify;
+}
+.maderas{
+    background-image: url("../assets/SliderHome/sh9.png");
+}
+.thermowood{
+    background-image: url("../assets/SliderHome/sh10.png");
 }
 .compuesto{
     background-image: url("../assets/SliderHome/sh11.png");

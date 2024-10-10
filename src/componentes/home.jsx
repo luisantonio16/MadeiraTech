@@ -85,7 +85,6 @@ const Home = () => {
             </div>
           </div>
           <div className="imagen-container compuesto">
-
             <h2 className="imagen-titulo">Compuesto</h2>
             <div className="imagen-texto">
               <p>
