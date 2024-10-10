@@ -40,16 +40,16 @@ const Home = () => {
       <SliderHeader />
 
       <section className="home">
-        <div data-aos="flip-down" data-aos-delay="400" className="home-container">
-          <div className="home-header">
+        <div  className="home-container">
+          <div className="home-header" data-aos="zoom-in" data-aos-delay="300">
             <img src={HomeImg} className="header-logo" />
           </div>
           <div className="home-section">
-            <div className="home-section--imagen">
+            <div className="home-section--imagen"  data-aos="fade-right" data-aos-delay="400">
               <img src={imgSection} className="section-img" />
               <div className="section-img--fondo"></div>
             </div>
-            <div className="home-section--texto">
+            <div className="home-section--texto" data-aos="fade-left" data-aos-delay="400">
               <p>
                 Distribuidores de maderas decorativas de lujo para el mercado
                 dominicano, representantes exclusivos de la prestigiosa marca
