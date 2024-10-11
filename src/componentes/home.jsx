@@ -57,7 +57,7 @@ const Home = () => {
                 innovación para embellecer y enriquecer los espacios
                 arquitectónicos de nuestros clientes.
               </p>
-              <NavLink className="btn">Contáctanos</NavLink>
+              <NavLink to="/contacto" className="btn">Contáctanos</NavLink>
             </div>
           </div>
         </div>
@@ -76,7 +76,7 @@ const Home = () => {
           </div>
           <div className="imagen-container thermowood">
 
-            <h2 className="imagen-titulo">Thermowood <br /> <span className="imagen-subtitulo">Thermo-Modified (Ratiata Clea)</span></h2>
+            <h2 className="imagen-titulo">Thermowood <br /> <span className="imagen-subtitulo">Thermo-Modified(Ratiata Clea)</span></h2>
             <div className="imagen-texto">
               <p>
                 Diseñado para ofrecer durabilidad y una belleza atemporal , una
@@ -88,7 +88,7 @@ const Home = () => {
             <h2 className="imagen-titulo">Compuesto</h2>
             <div className="imagen-texto">
               <p>
-                Diseñados para una máxima durabilidad, elcompuesto resiste la
+                Diseñados para una máxima durabilidad, el compuesto resiste la
                 decoloración, las manchas, los rayones y el moho, y no se
                 pudre, agrieta ni deforma.
               </p>
@@ -105,7 +105,7 @@ const Home = () => {
               <img src={imgCirculoMarron} className="about-img " />
             </div>
             <div>
-              <NavLink className='about-btn'>Contáctanos</NavLink>
+              <NavLink to="/contacto" className='about-btn'>Contáctanos</NavLink>
             </div>
           </div>
         </div>

@@ -97,15 +97,14 @@ const AboutUs = () => {
                     <div className="mision"  data-aos="zoom-in">
                         <div className='mision-info'>
                             <h2>Misión</h2>
-                            <p> Proveer sol
-                                uciones de madera decorativa y
+                            <p> Proveer soluciones de madera decorativa y
                                 derivados en la Republica Dominicana,
                                 combinando calidad, responsablidad con el
                                 medio ambiente e innovación para
                                 embellecer y enriquecer los proyectos
                                 arquitectócos de nuestros clientes,
-                                superando sus expectativas, asícomo las de
-                                nuestros directores y accionista,a través de
+                                superando sus expectativas, así como las de
+                                nuestros directores y accionista, a través de
                                 un servicio personalizado y profesional.</p>
                         </div>
 
@@ -123,14 +122,13 @@ const AboutUs = () => {
                             <h2>Visión</h2>
                             <p> Ser la empresa de distribución líder en
                                 materiales de construcción en República
-                                Dominicana y el Caribe, destacándonos por la
-                                a de nuestros productos, los más
+                                Dominicana y el Caribe, destacándonos por la exelencia
+                                 de nuestros productos, los más
                                 altos estándares de calidad, un firme
                                 compromiso con la sostenibilidad y una
-                                constante innovación. Buscamos establecerones duraderas con nuestros clsocios comerciales, consol
-                                reputaciientes y
-                                idando nuestra
-                                ón como referentes en el sector</p>
+                                constante innovación. Buscamos establecer relaciones duraderas con nuestros clientes y socios comerciales,
+                                 consolidando nuestra reputación como referentes en el sector.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -167,7 +165,7 @@ const AboutUs = () => {
                             <div className="about-card-info">
                                 <h2>Resposabilidad</h2>
                                 <p> Responsabilidad ambiental en la seleccion y manejo
-                                    de nuestros recursos, promoviendo practicas sostenidos en
+                                    de nuestros recursos, promoviendo practicas sostenibles en
                                     toda la cadena de suministro.</p>
 
                             </div>
@@ -199,7 +197,7 @@ const AboutUs = () => {
                 </div>
 
                 <div className='about-contact--button'>
-                    <NavLink className='about-contact--btn'>Contactanos</NavLink>
+                    <NavLink to='/contacto' className='about-contact--btn'>Contactanos</NavLink>
                 </div>
 
 

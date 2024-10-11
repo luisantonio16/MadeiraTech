@@ -41,7 +41,7 @@ const SliderHeader = () => {
                         de lujo en el mercado dominicano.
                         </p>
                     <NavLink className='slider-btn' >
-                        Leer Mas
+                       Leer más
                     </NavLink>
                     </div>
                     <img src={s1} className='slider-imagen' />
@@ -56,7 +56,7 @@ const SliderHeader = () => {
                         de lujo en el mercado dominicano.
                         </p>
                     <NavLink className='slider-btn' >
-                        Leer Mas
+                        Leer más
                     </NavLink>
                     </div>
                     <img src={s2} className='slider-imagen' />
@@ -71,7 +71,7 @@ const SliderHeader = () => {
                         de lujo en el mercado dominicano.
                         </p>
                     <NavLink className='slider-btn' >
-                        Leer Mas
+                       Leer más
                     </NavLink>
                     </div>
                     <img src={s3} className='slider-imagen' />
@@ -86,7 +86,7 @@ const SliderHeader = () => {
                         de lujo en el mercado dominicano.
                         </p>
                     <NavLink className='slider-btn' >
-                        Leer Mas
+                        Leer más
                     </NavLink>
                     </div>
                     <img src={s4} className='slider-imagen' />
@@ -101,7 +101,7 @@ const SliderHeader = () => {
                         de lujo en el mercado dominicano.
                         </p>
                     <NavLink className='slider-btn' >
-                        Leer Mas
+                        Leer más
                     </NavLink>
                     </div>
                     <img src={s1} className='slider-imagen' />
