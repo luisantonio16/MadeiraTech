@@ -39,17 +39,25 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: #375b7d77;
-    width: 350px;
+    width: 500px;
     padding: 20px;
     z-index: 5;
     border-radius: 10px;
+    
 }
 .about-titulo h2{
     text-align: center;
     color: white;
-   font-size: 40px;
+   font-size: 50px;
    font-weight: 600;
+   text-shadow: 5px 5px 5px var(--color-Primary);
+}
+.about-titulo h4{
+    text-align: center;
+    color: white;
+   font-size: 20px;
+   font-weight: 300;
+   text-shadow: 5px 5px 5px var(--color-Primary);
 
 }
 

@@ -6,18 +6,18 @@ const MenuProductos = () => {
     return (
         <div className='header-menuProductos'>
             <div className='menu-Productos'>
-                <NavLink className='menu-productos--link'>
+                <NavLink to='/maderas-tropicales' className='menu-productos--link'>
                     Maderas Tropicales
 
                     <img src={iconPlus} className='link-plus' />
                    
                 </NavLink>
-                <NavLink className='menu-productos--link'>
+                <NavLink to='/thermowood' className='menu-productos--link'>
                     Thermowood
                     <img src={iconPlus} className='link-plus' />
                    
                 </NavLink>
-                <NavLink className='menu-productos--link'>
+                <NavLink to='/compuestos' className='menu-productos--link'>
                     Compuestos
                     <img src={iconPlus} className='link-plus' />
                    
