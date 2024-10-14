@@ -1,13 +1,14 @@
 import React, { useEffect } from 'react';
+import { NavLink } from 'react-router-dom';
+import Footer from '../Layouts/Footer';
 
 /*css */
 import '../Css/compuestos.css'
 
 /*Imagenes */
-import headerCompuesto from '../assets/about/tituloAbout.png';
-import infoImg from '../assets/SliderHome/sh8.jpg'
-import { NavLink } from 'react-router-dom';
-import Footer from '../Layouts/Footer';
+import headerCompuesto from '../assets/compuestos/compuestoPrincipal.png';
+import compuestos from '../assets/compuestos/compustos1.png';
+
 
 /*ANIMACIONES */
 import AOS from 'aos';
@@ -58,7 +59,7 @@ const Compuestos = () => {
                     <div className="subcategorias-container">
                         <div className="subcategorias-informaciones">
                             <div className="subcategoria-imagenes" data-aos="fade-right">
-                                <img src={infoImg} className='subcategoria-imagen' />
+                                <img src={compuestos} className='subcategoria-imagen' />
                             </div>
                             <div className="subcategorias-texto" data-aos="fade-left">
                                 <div className='subcategorias-titulos'>

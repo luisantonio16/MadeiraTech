@@ -1,13 +1,15 @@
 import React, { useEffect } from 'react';
+import { NavLink } from 'react-router-dom';
+import Footer from '../Layouts/Footer';
+
 
 /*css */
 import '../Css/compuestos.css'
 
 /*Imagenes */
-import headerCompuesto from '../assets/about/tituloAbout.png';
-import infoImg from '../assets/SliderHome/sh8.jpg'
-import { NavLink } from 'react-router-dom';
-import Footer from '../Layouts/Footer';
+import maderasTropicales from '../assets/maderasTropicales/maderaTropical.png';
+import madera from '../assets/maderasTropicales/fotoCumaru.png'
+import madera1 from '../assets/maderasTropicales/fotoIpe.png'
 
 
 /*ANIMACIONES */
@@ -30,7 +32,7 @@ const MaderasTropicales = () => {
                 <section className='about-us'>
                     <section className='about-container-titulo'>
                         <div className='about-us-imagen'>
-                            <img src={headerCompuesto} className='img-titulo' />
+                            <img src={maderasTropicales} className='img-titulo' />
                         </div>
                         <div className='about-us--linea'></div>
 
@@ -58,7 +60,7 @@ const MaderasTropicales = () => {
                     <div className="subcategorias-container">
                         <div className="subcategorias-informaciones">
                             <div className="subcategoria-imagenes" data-aos="fade-right">
-                                <img src={infoImg} className='subcategoria-imagen' />
+                                <img src={madera} className='subcategoria-imagen' />
                             </div>
                             <div className="subcategorias-texto" data-aos="fade-left">
                                 <div className='subcategorias-titulos'>
@@ -104,7 +106,7 @@ const MaderasTropicales = () => {
                                 </div>
                             </div>
                             <div className="subcategoria-imagenes" data-aos="fade-left">
-                                <img src={infoImg} className='subcategoria-imagen' />
+                                <img src={madera1} className='subcategoria-imagen' />
                             </div>
                         </div>
 

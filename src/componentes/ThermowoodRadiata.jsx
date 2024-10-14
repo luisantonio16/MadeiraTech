@@ -6,8 +6,11 @@ import Footer from '../Layouts/Footer';
 
 
 /*Imagenes */
-import headerCompuesto from '../assets/about/tituloAbout.png';
-import infoImg from '../assets/SliderHome/sh8.jpg'
+import thermowoodRadiata from '../assets/thermowood/foto.png';
+import thermowood from '../assets/thermowood/ayou.png'
+import thermowood1 from '../assets/thermowood/pino.png'
+import thermowood2 from '../assets/thermowood/radiata.png'
+import thermowood3 from '../assets/thermowood/ash.png'
 
 /*ANIMACIONES */
 import AOS from 'aos';
@@ -29,7 +32,7 @@ const ThermowoodRadiata = () => {
                 <section className='about-us'>
                     <section className='about-container-titulo'>
                         <div className='about-us-imagen'>
-                            <img src={headerCompuesto} className='img-titulo' />
+                            <img src={thermowoodRadiata} className='img-titulo' />
                         </div>
                         <div className='about-us--linea'></div>
 
@@ -57,7 +60,7 @@ const ThermowoodRadiata = () => {
                     <div className="subcategorias-container">
                         <div className="subcategorias-informaciones">
                             <div className="subcategoria-imagenes"  data-aos="fade-right">
-                                <img src={infoImg} className='subcategoria-imagen' />
+                                <img src={thermowood} className='subcategoria-imagen' />
                             </div>
                             <div className="subcategorias-texto" data-aos="fade-left">
                                 <div className='subcategorias-titulos'>
@@ -96,13 +99,13 @@ const ThermowoodRadiata = () => {
                                 </div>
                             </div>
                             <div className="subcategoria-imagenes"  data-aos="fade-left">
-                                <img src={infoImg} className='subcategoria-imagen' />
+                                <img src={thermowood1} className='subcategoria-imagen' />
                             </div>
                         </div>
 
                         <div className="subcategorias-informaciones " >
                             <div className="subcategoria-imagenes"  data-aos="fade-right">
-                                <img src={infoImg} className='subcategoria-imagen' />
+                                <img src={thermowood2} className='subcategoria-imagen' />
                             </div>
                             <div className="subcategorias-texto"  data-aos="fade-left">
                                 <div className='subcategorias-titulos'>
@@ -148,7 +151,7 @@ const ThermowoodRadiata = () => {
                                 </div>
                             </div>
                             <div className="subcategoria-imagenes"  data-aos="fade-left">
-                                <img src={infoImg} className='subcategoria-imagen' />
+                                <img src={thermowood3} className='subcategoria-imagen' />
                             </div>
                         </div>
 
