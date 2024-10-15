@@ -19,15 +19,15 @@ const SliderHeader = () => {
     return (
         <section className='slider-home-imagen'>
             <Swiper
-                
+
                 pagination={{
                     dynamicBullets: true,
                 }}
                 autoplay={{
                     delay: 3000, // 3 segundos
                     disableOnInteraction: false, // Evita que se detenga al interactuar con él
-                  }}
-                 speed={2000}
+                }}
+                speed={2000}
                 modules={[Pagination, Autoplay]}
                 className="mySwiper imagen-container--slider"
             >
@@ -37,72 +37,72 @@ const SliderHeader = () => {
                             Sobre Nosotros
                         </h2>
                         <p className='slider-parrafo'>
-                        Somos los principales distribuidores de maderas decorativas
-                        de lujo en el mercado dominicano.
+                            Somos los principales distribuidores de maderas decorativas
+                            de lujo en el mercado dominicano.
                         </p>
-                    <NavLink className='slider-btn' >
-                       Leer más
-                    </NavLink>
+                        <NavLink to='/about' className='slider-btn' >
+                            Leer más
+                        </NavLink>
                     </div>
                     <img src={s1} className='slider-imagen' />
                 </SwiperSlide>
                 <SwiperSlide className='slider-container'>
-                <div className='slider-texto'>
+                    <div className='slider-texto'>
                         <h2 className='slider-titulo'>
                             Sobre Nosotros
                         </h2>
                         <p className='slider-parrafo'>
-                        Somos los principales distribuidores de maderas decorativas
-                        de lujo en el mercado dominicano.
+                            Somos los principales distribuidores de maderas decorativas
+                            de lujo en el mercado dominicano.
                         </p>
-                    <NavLink className='slider-btn' >
-                        Leer más
-                    </NavLink>
+                        <NavLink to='/about' className='slider-btn' >
+                            Leer más
+                        </NavLink>
                     </div>
                     <img src={s2} className='slider-imagen' />
                 </SwiperSlide>
                 <SwiperSlide className='slider-container'>
-                <div className='slider-texto'>
+                    <div className='slider-texto'>
                         <h2 className='slider-titulo'>
                             Sobre Nosotros
                         </h2>
                         <p className='slider-parrafo'>
-                        Somos los principales distribuidores de maderas decorativas
-                        de lujo en el mercado dominicano.
+                            Somos los principales distribuidores de maderas decorativas
+                            de lujo en el mercado dominicano.
                         </p>
-                    <NavLink className='slider-btn' >
-                       Leer más
-                    </NavLink>
+                        <NavLink to='/about' className='slider-btn' >
+                            Leer más
+                        </NavLink>
                     </div>
                     <img src={s3} className='slider-imagen' />
                 </SwiperSlide>
                 <SwiperSlide className='slider-container'>
-                <div className='slider-texto'>
+                    <div className='slider-texto'>
                         <h2 className='slider-titulo'>
                             Sobre Nosotros
                         </h2>
                         <p className='slider-parrafo'>
-                        Somos los principales distribuidores de maderas decorativas
-                        de lujo en el mercado dominicano.
+                            Somos los principales distribuidores de maderas decorativas
+                            de lujo en el mercado dominicano.
                         </p>
-                    <NavLink className='slider-btn' >
-                        Leer más
-                    </NavLink>
+                        <NavLink to='/about' className='slider-btn' >
+                            Leer más
+                        </NavLink>
                     </div>
                     <img src={s4} className='slider-imagen' />
                 </SwiperSlide >
                 <SwiperSlide className='slider-container'>
-                <div className='slider-texto'>
+                    <div className='slider-texto'>
                         <h2 className='slider-titulo'>
                             Sobre Nosotros
                         </h2>
                         <p className='slider-parrafo'>
-                        Somos los principales distribuidores de maderas decorativas
-                        de lujo en el mercado dominicano.
+                            Somos los principales distribuidores de maderas decorativas
+                            de lujo en el mercado dominicano.
                         </p>
-                    <NavLink className='slider-btn' >
-                        Leer más
-                    </NavLink>
+                        <NavLink to='/about' className='slider-btn' >
+                            Leer más
+                        </NavLink>
                     </div>
                     <img src={s1} className='slider-imagen' />
                 </SwiperSlide>

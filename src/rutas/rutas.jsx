@@ -12,6 +12,7 @@ import Productos from '../componentes/Productos';
 import Compuestos from '../componentes/Compuestos';
 import MaderasTropicales from '../componentes/MaderasTropicales';
 import ThermowoodRadiata from '../componentes/ThermowoodRadiata';
+import Norx from '../componentes/Norx';
 
 
 
@@ -48,6 +49,7 @@ const AppContent = () => {
                     <Route path='/compuestos' element={<Compuestos />} /> 
                     <Route path='/maderas-tropicales' element={<MaderasTropicales />} /> 
                     <Route path='/thermowood' element={<ThermowoodRadiata />} /> 
+                    <Route path='/compuestos/norx' element={<Norx />} /> 
                 </Routes>
             </CSSTransition>
           </TransitionGroup>

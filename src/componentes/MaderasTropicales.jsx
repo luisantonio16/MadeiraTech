@@ -65,7 +65,7 @@ const MaderasTropicales = () => {
                             <div className="subcategorias-texto" data-aos="fade-left">
                                 <div className='subcategorias-titulos'>
                                     <h2 className='subcategorias-titulo'>
-                                        CUMARU MADERA TROPICALES
+                                        CUMARU
                                     </h2>
                                 </div>
                                 <div className="subcategorias-texto--info">
@@ -88,7 +88,7 @@ const MaderasTropicales = () => {
                             <div className="subcategorias-texto" data-aos="fade-right">
                                 <div className='subcategorias-titulos'>
                                     <h2 className='subcategorias-titulo'>
-                                        IPE MADERA TROPICALES
+                                        IPE
                                     </h2>
                                 </div>
                                 <div className="subcategorias-texto--info">

@@ -37,12 +37,12 @@ const Home = () => {
       <SliderHeader />
 
       <section className="home">
-        <div  className="home-container">
+        <div className="home-container">
           <div className="home-header" data-aos="zoom-in" data-aos-delay="300">
             <img src={HomeImg} className="header-logo" />
           </div>
           <div className="home-section">
-            <div className="home-section--imagen"  data-aos="fade-right" data-aos-delay="400">
+            <div className="home-section--imagen" data-aos="fade-right" data-aos-delay="400">
               <img src={imgSection} className="section-img" />
               <div className="section-img--fondo"></div>
             </div>
@@ -62,7 +62,8 @@ const Home = () => {
 
       <section className="home-about">
         <div className="home-about-container--imagen">
-          <div className="imagen-container maderas">
+          <NavLink to='/maderas-tropicales'  className="imagen-container maderas">
+          <div >
             <h2 className="imagen-titulo">Maderas Tropicales</h2>
             <div className="imagen-texto">
               <p>
@@ -71,17 +72,26 @@ const Home = () => {
               </p>
             </div>
           </div>
-          <div className="imagen-container thermowood">
 
-            <h2 className="imagen-titulo">Thermowood <br /> <span className="imagen-subtitulo">Thermo-Modified(Ratiata Clea)</span></h2>
-            <div className="imagen-texto">
-              <p>
-                Diseñado para ofrecer durabilidad y una belleza atemporal , una
-                madera liviana perfecta para paredes y techos.
-              </p>
+          </NavLink>
+         
+          <NavLink to='/thermowood' className="imagen-container thermowood">
+            <div >
+
+              <h2 className="imagen-titulo">Thermowood <br /> <span className="imagen-subtitulo">Thermo-Modified</span></h2>
+              <div className="imagen-texto">
+                <p>
+                  Diseñado para ofrecer durabilidad y una belleza atemporal , una
+                  madera liviana perfecta para paredes y techos.
+                </p>
+              </div>
+
             </div>
-          </div>
-          <div className="imagen-container compuesto">
+          </NavLink>
+          <NavLink to='/compuestos' className="imagen-container compuesto">
+
+      
+          <div >
             <h2 className="imagen-titulo">Compuesto</h2>
             <div className="imagen-texto">
               <p>
@@ -91,7 +101,9 @@ const Home = () => {
               </p>
             </div>
           </div>
+          </NavLink>
         </div>
+        
         <div className="home-about-footer">
           <div className="about-footer">
             <div>
@@ -113,12 +125,18 @@ const Home = () => {
       <section className="section-five">
         <div className="section-five--enlaces">
           <div className="five-enlace-one">
-            <img src={Plus} className="five-enlace--imagen" />
-            <h2 className="five-enlace-titulo">Techos</h2>
+            <NavLink to='/contacto'>
+              <img src={Plus} className="five-enlace--imagen" />
+              <h2 className="five-enlace-titulo">Techos</h2>
+
+            </NavLink>
           </div>
           <div className="five-enlace-two">
-            <img src={Plus} className="five-enlace--imagen" />
-            <h2 className="five-enlace-titulo">Paredes</h2>
+            <NavLink to="/contacto">
+              <img src={Plus} className="five-enlace--imagen" />
+              <h2 className="five-enlace-titulo">Paredes</h2>
+
+            </NavLink>
           </div>
         </div>
         <div className="section-five--imagen">
@@ -136,8 +154,11 @@ const Home = () => {
           </div>
         </div>
         <div className="five-enlace-three">
-          <img src={Plus} className="five-enlace--imagen" />
-          <h2 className="five-enlace-titulo">Pisos</h2>
+          <NavLink to='/contacto'>
+            <img src={Plus} className="five-enlace--imagen" />
+            <h2 className="five-enlace-titulo">Pisos</h2>
+          </NavLink>
+
         </div>
       </section>
 

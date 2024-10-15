@@ -39,7 +39,7 @@ const Footer = () => {
                         <h2 className="items-one"> Subcategoria</h2>
                         <ul>
                             <li> <NavLink className='footer-items'>Norx</NavLink></li>
-                            <li> <NavLink className='footer-items'>Camaru</NavLink></li>
+                            <li> <NavLink className='footer-items'>Cumaru</NavLink></li>
                             <li> <NavLink className='footer-items'>Ash</NavLink></li>
                             <li> <NavLink className='footer-items'>Ayous</NavLink></li>
                             <li> <NavLink className='footer-items'>Pine</NavLink></li>

@@ -79,7 +79,7 @@ const Compuestos = () => {
                                         revestimientos y vigas.
                                     </p>
 
-                                    <NavLink className='subcategoria-btn'>Saber Mas</NavLink>
+                                    <NavLink to='/compuestos/norx' className='subcategoria-btn'>Saber Mas</NavLink>
                                 </div>
                             </div>
                         </div>
