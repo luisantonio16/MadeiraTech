@@ -95,7 +95,7 @@ const Home = () => {
         <div className="home-about-footer">
           <div className="about-footer">
             <div>
-              <h3>¿Necesitas ayuda</h3>
+              <h3>¿Necesitas ayuda?</h3>
               <p> Puedes ponerte en contacto con nosotros</p>
             </div>
             <div >
