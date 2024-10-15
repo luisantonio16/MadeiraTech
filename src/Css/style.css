@@ -482,15 +482,21 @@ ul li {
 }
 
 .footer-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 18px;
     color: white;
-    margin: 20px auto;
+    margin: 10px auto;
     padding: 10px;
     font-weight: 300;
     transition: all 300ms ease;
 }
 
-
+.footer-img{
+    margin-right:5px ;
+    width: 18px;
+}
 
 
 /* Estilos para dispositivos móviles */

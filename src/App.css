@@ -129,22 +129,37 @@ justify-content: space-around;
   width: 100%;
   height: 100%;
   object-fit: cover;
+  display: block;
+
+}
+
+.slider-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.418), rgba(0, 0, 0, 0.123));
+  pointer-events: none; /* Permite que el contenido debajo del degradado sea interactivo */
+  z-index: 1; /* Asegúrate de que el degradado esté sobre la imagen */
 }
 .slider-titulo{
   color: white;
   font-size: 40px;
-  font-weight: 500;
+  font-weight: 900;
   margin: 10px 0;
-  text-shadow: black 0.1em 0.1em 0.2em;
+  z-index: 2;
+
  
 }
 .slider-parrafo{
   color: white;
   font-size: 20px;
-  font-weight: 300;
+  font-weight: 400;
   margin: 10px 0;
   text-align: left;
-  text-shadow: rgba(0, 0, 0, 0.795) 0.1em 0.1em 0.2em;
+  z-index: 2;
 
 }
 .slider-btn{
@@ -157,6 +172,7 @@ justify-content: space-around;
   text-align: center;
   transition: all 300ms ease-out;
   cursor: pointer;
+  z-index: 2;
 }
 .slider-btn:hover{
   background-color: #A77350
@@ -251,6 +267,9 @@ justify-content: space-around;
   
 }
 
+
+
+
 /*Sub categorias*/
 .subcategorias{
   display: block;
@@ -332,20 +351,46 @@ justify-content: space-around;
 
 
 
-/*Animaciones Para la navegacion*/
-.fade-enter {
-  opacity: 0;
-  transform: translateY(20px); /* Desplazamiento hacia abajo */
+
+.about-us-imagen--thermowood{
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 550px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.493), rgba(0, 0, 0, 0.459)),
+        url("./assets/thermowood/foto.png");
+        background-size: cover;
+        /* Hace que la imagen cubra todo el contenedor */
+        background-position: center;
+        /* Centra la imagen en el contenedor */
+        background-repeat: no-repeat;
 }
-.fade-enter-active {
-  opacity: 1;
-  transform: translateY(0);
-  transition: opacity 300ms, transform 300ms;
+.about-us-imagen--Maderas{
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 550px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.425), rgba(0, 0, 0, 0.342)),
+        url("./assets/maderasTropicales/maderaTropical.png");
+        background-size: cover;
+        /* Hace que la imagen cubra todo el contenedor */
+        background-position: center;
+        /* Centra la imagen en el contenedor */
+        background-repeat: no-repeat;
 }
-.fade-exit {
-  opacity: 1;
+
+.about-us-imagen--compuestos{
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 550px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.425), rgba(0, 0, 0, 0.342)),
+        url("./assets/compuestos/compuestoPrincipal.png");
+        background-size: cover;
+        /* Hace que la imagen cubra todo el contenedor */
+        background-position: center;
+        /* Centra la imagen en el contenedor */
+        background-repeat: no-repeat;
 }
-.fade-exit-active {
-  opacity: 0;
-  transition: opacity 300ms;
-}
+
+

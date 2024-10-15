@@ -31,8 +31,8 @@ const ThermowoodRadiata = () => {
             <div className="container-compuestos">
                 <section className='about-us'>
                     <section className='about-container-titulo'>
-                        <div className='about-us-imagen'>
-                            <img src={thermowoodRadiata} className='img-titulo' />
+                        <div className='about-us-imagen--thermowood'>
+                            {/* <img src={thermowoodRadiata} className='img-titulo' /> */}
                         </div>
                         <div className='about-us--linea'></div>
 

@@ -1,0 +1,126 @@
+
+/*Animaciones Para la navegacion*/
+.fade-enter {
+    opacity: 0;
+    transform: translateY(20px); /* Desplazamiento hacia abajo */
+  }
+  .fade-enter-active {
+    opacity: 1;
+    transform: translateY(0);
+    transition: opacity 300ms, transform 300ms;
+  }
+  .fade-exit {
+    opacity: 1;
+  }
+  .fade-exit-active {
+    opacity: 0;
+    transition: opacity 300ms;
+  }
+
+
+
+
+/*Zoom*/
+
+.zoom-enter {
+    opacity: 0;
+    transform: scale(1.2);
+  }
+  .zoom-enter-active {
+    opacity: 1;
+    transform: scale(1);
+    transition: opacity 500ms ease-in, transform 500ms ease-in;
+  }
+  .zoom-exit {
+    opacity: 1;
+  }
+  .zoom-exit-active {
+    opacity: 0;
+    transform: scale(1.2);
+    transition: opacity 500ms ease-out, transform 500ms ease-out;
+  }
+
+
+
+
+  /* scale*/
+  .scale-enter {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  .scale-enter-active {
+    opacity: 1;
+    transform: scale(1);
+    transition: opacity 500ms ease-in, transform 500ms ease-in;
+  }
+  .scale-exit {
+    opacity: 1;
+  }
+  .scale-exit-active {
+    opacity: 0;
+    transform: scale(0.9);
+    transition: opacity 500ms ease-out, transform 500ms ease-out;
+  }
+
+
+
+
+  /*Slide down*/
+  .slide-down-enter {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+  .slide-down-enter-active {
+    opacity: 1;
+    transform: translateY(0);
+    transition: opacity 500ms ease-in, transform 500ms ease-in;
+  }
+  .slide-down-exit {
+    opacity: 1;
+  }
+  .slide-down-exit-active {
+    opacity: 0;
+    transform: translateY(-100%);
+    transition: opacity 500ms ease-out, transform 500ms ease-out;
+  }
+
+
+
+/*slide up*/
+.slide-up-enter {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+  .slide-up-enter-active {
+    opacity: 1;
+    transform: translateY(0);
+    transition: opacity 300ms ease-in-out, transform 300ms ease-in-out;
+  }
+  .slide-up-exit {
+    opacity: 1;
+  }
+  .slide-up-exit-active {
+    opacity: 0;
+    transform: translateY(-100%);
+    transition: opacity 300ms ease-in-out, transform 300ms ease-in-out;
+  }  
+
+  /**/
+  .fade-scale-enter {
+    opacity: 0;
+    transform: scale(0.90);
+  }
+  .fade-scale-enter-active {
+    opacity: 1;
+    transform: scale(1);
+    transition: opacity 500ms ease-in, transform 500ms ease-in;
+  }
+  .fade-scale-exit {
+    opacity: 1;
+  }
+  .fade-scale-exit-active {
+    opacity: 0;
+    transform: scale(0.95);
+    transition: opacity 500ms ease-in, transform 500ms ease-in;
+  }
+  

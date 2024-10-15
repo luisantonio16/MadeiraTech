@@ -34,8 +34,8 @@ const AppContent = () => {
           <TransitionGroup>
             <CSSTransition
               key={location.key}
-              timeout={300} // Duración de la animación
-              classNames="fade" // Nombre de las clases CSS para las transiciones
+              timeout={1000} // Duración de la animación
+              classNames="fade-scale" // Nombre de las clases CSS para las transiciones
             >
               <Routes location={location}>
                     <Route path='/' element={<Home />} />

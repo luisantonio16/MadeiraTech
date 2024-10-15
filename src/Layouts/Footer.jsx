@@ -5,6 +5,9 @@ import { NavLink } from 'react-router-dom';
 import imgFooter1 from '../assets/home/maderaLogoBlanco.png'
 import imgFooter2 from '../assets/home/lumberPlusLogoBlanco.png'
 
+import imgFooter3 from '../assets/iconoMail.png'
+import imgFooter4 from '../assets/iconoWS.png'
+
 const Footer = () => {
     return (
         <section className='footer'>
@@ -47,8 +50,8 @@ const Footer = () => {
                     <div className='footer-sections'>
                         <h2 className="items-one">Contacto</h2>
                         <ul>
-                            <li> <NavLink className='footer-items'>809-999-9999</NavLink></li>
-                            <li> <NavLink className='footer-items'> info@madeiratech.do</NavLink></li>
+                            <li> <NavLink className='footer-items'><img src={imgFooter4} className='footer-img' />809-999-9999</NavLink></li>
+                            <li> <NavLink className='footer-items'><img src={imgFooter3} className='footer-img' /> info@madeiratech.do</NavLink></li>
                         </ul>
 
                     </div>

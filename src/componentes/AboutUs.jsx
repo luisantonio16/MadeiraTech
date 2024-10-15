@@ -5,7 +5,6 @@ import Footer from '../Layouts/Footer'
 import '../Css/about.css'
 
 /*Imagenes */
-import aboutimgTitulo from '../assets/about/tituloAbout.png'
 import imgCirculo from '../assets/about/circuloAbout.png'
 import imgCirculo1 from '../assets/about/circuloAbout1.png'
 import imgCirculo2 from '../assets/about/circuloAbout2.png'
@@ -35,13 +34,14 @@ const AboutUs = () => {
         });
     
       },[]);
+
+
     return (
         <section className='about'>
-
             <section className='about-us'>
                 <section className='about-container-titulo'>
                     <div className='about-us-imagen'>
-                        <img src={aboutimgTitulo} className='img-titulo' />
+                        {/* <img src={aboutimgTitulo} className='img-titulo' /> */}
                     </div>
                     <div className='about-us--linea'></div>
 
