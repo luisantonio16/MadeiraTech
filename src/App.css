@@ -369,7 +369,7 @@ justify-content: space-around;
   display: block;
   position: relative;
   width: 100%;
-  height: 550px;
+  height: 650px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.425), rgba(0, 0, 0, 0.342)),
         url("./assets/maderasTropicales/maderaTropical.png");
         background-size: cover;
@@ -383,9 +383,9 @@ justify-content: space-around;
   display: block;
   position: relative;
   width: 100%;
-  height: 550px;
+  height: 620px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.425), rgba(0, 0, 0, 0.342)),
-        url("./assets/compuestos/compuestoPrincipal.png");
+        url("./assets/compuestos/compuestoPrincipal.jpg");
         background-size: cover;
         /* Hace que la imagen cubra todo el contenedor */
         background-position: center;

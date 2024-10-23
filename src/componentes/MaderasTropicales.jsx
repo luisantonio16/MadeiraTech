@@ -65,12 +65,12 @@ const MaderasTropicales = () => {
                             <div className="subcategorias-texto" data-aos="fade-left">
                                 <div className='subcategorias-titulos'>
                                     <h2 className='subcategorias-titulo'>
-                                        CUMARU
+                                        CUMARÚ
                                     </h2>
                                 </div>
                                 <div className="subcategorias-texto--info">
                                     <p>
-                                        Toda nuestra madera Cumaru
+                                        Toda nuestra madera Cumarú
                                         está meticulosamente clasificada,
                                         seleccionada a mano y S4S E4E
                                         (Cepillada en 4 lados y con bordes
@@ -102,7 +102,7 @@ const MaderasTropicales = () => {
                                         para una terminación suave.
                                     </p>
 
-                                    <NavLink className='subcategoria-btn'>Saber Mas</NavLink>
+                                    <NavLink to='/maderas-tropicales/ipe' className='subcategoria-btn'>Saber Mas</NavLink>
                                 </div>
                             </div>
                             <div className="subcategoria-imagenes" data-aos="fade-left">

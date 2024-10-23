@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Poppins:wght@100;200;300;400;500;600;700;800&family=Roboto:wght@100;300;400;500;700&family=Sassy+Frass&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+
+:root {
+    --color-Primary: #375B7D;
+    --color-secundary: #9C5E35;
+    --color-parrafo: #636161;
+}
+
+.norx-subcategorias{
+    position: relative;
+    display: block;
+    width: 100%;
+}
+.norx-subcategorias--container{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 650px;
+    overflow: hidden;
+    object-fit: cover;
+}
+.sub-categorias-imagen{
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 620px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.425), rgba(0, 0, 0, 0.432)), 
+     url("../assets/norxSubCategoria/norxPrincipal.jpg");
+    background-size:cover;
+          /* Hace que la imagen cubra todo el contenedor */
+    background-position:left;
+          /* Centra la imagen en el contenedor */
+    background-repeat: no-repeat;
+    
+}
+.sub-categorias-imagen-ipe{
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 620px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.425), rgba(0, 0, 0, 0.432)), 
+   url("../assets/norxSubCategoria/IPE.png");
+  background-size:cover;
+        /* Hace que la imagen cubra todo el contenedor */
+  background-position:left;
+        /* Centra la imagen en el contenedor */
+  background-repeat: no-repeat;
+  
+}
+
+.sub-categorias--titulo{
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    padding: 20px;
+    z-index: 5;
+}
+.sub-categorias--titulo h2{
+    text-align: center;
+    color: white;
+   font-size: 60px;
+   font-weight: 600;
+   text-shadow: 5px 5px 5px var(--color-Primary);
+}
+.sub-categorias--titulo h3{
+    text-align: center;
+    color: white;
+   font-size: 20px;
+   font-weight: 400;
+   text-shadow: 5px 5px 5px var(--color-Primary);
+}
+
+
+
+/*Sub-categorias informacio*/
+.sub-categorias--informacion{
+    position: relative;
+    width: 100%;
+    margin: 100px auto;
+
+}
+.design-container{
+   display: block;
+   margin: auto;
+   width: 100%;
+}
+
+.wood-image{
+  display: block;
+  margin: auto;
+  width: 500px;
+  height: 500px;
+  background-image: url('../assets/norxSubCategoria/madera.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.wood-image-ipe{
+  display: block;
+  margin: auto;
+  width: 500px;
+  height: 500px;
+  background-image: url('../assets/norxSubCategoria/ipe_madera.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.circle{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.circle p {
+  display: block;
+  width: 200px;
+  margin: 5px;
+ font-size: 18px;
+ color: var(--color-secundary);
+  
+}
+.circle-imagenes{
+  position: relative;
+  display: block;
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  padding: 20px;
+  background-color: var(--color-Primary);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.774);
+}
+.circle-imagenes img{
+  display: flex;
+  align-items: center;
+  margin: auto;
+  width: 110px;
+
+}
+.circle-left{
+  position: absolute;
+  top: 20px;
+  left: 100px;
+}
+.circle-right{
+  position: absolute;
+  top: 20px;
+  right: 100px;
+}
+.circle-top{
+  position: absolute;
+  top: -100px;
+  left: 45%;
+}
+
+.circle-bottom-left{
+  position: absolute;
+  bottom: 20px;
+  left: 100px;
+}
+.circle-bottom-right{
+  position: absolute;
+  bottom: 20px;
+  right: 140px;
+}
+
+.sub-categorias-contact{
+  display: block;
+  margin: auto;
+}
+
+.contact-button {
+  display: block;
+  text-align: center;
+    margin:60px auto;
+    padding: 10px 20px;
+    background-color: #A0522D;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 10px;
+    width: 180px;
+}
+  
+.contact-button:hover {
+    background-color: #8B4513;
+}
+  
+
+
+/*sub-categorias-textos*/
+
+.sub-categorias-textos{
+  display: block;
+  position: relative;
+  margin: 100px 0;
+}
+.sub-categorias-textos--container{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+  width: 90%;
+  max-width: 1200px;
+}
+
+.sub-categorias-acordeon{
+  display: block;
+  width: 40%;
+}
+
+.acordeon-items{
+  display: block;
+  margin: 10px 0;
+  background-color: var(--color-secundary);
+  border-radius: 10px;
+}
+.acordeon-titulos{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  border-radius: 10px;
+}
+.acordeon-titulos h2{
+ font-size: 18px;
+ color: white;
+ font-weight: 500;
+}
+
+.acordeon-titulos img{
+  display: block;
+  width: 25px;
+}
+
+.acordeon-informacion {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease-in-out, opacity 0.5s ease-in-out;
+  opacity: 0;
+  transform: scaleY(0);
+  transform-origin: top;
+}
+
+.acordeon-informacion.open {
+  max-height: 900px; /* Ajusta según el contenido */
+  opacity: 1;
+  transform: scaleY(1);
+}
+.acordeon-info{
+  display: block;
+  width: 90%;
+  margin: auto;
+}
+.sub-categorias-texto{
+  display: block;
+  width: 50%;
+}
+
+.sub-categorias-texto h2{
+    display: block;
+    margin: 10px 0;
+    text-align: center;
+    color: var(--color-Primary);
+    font-size: 25px;
+    font-weight: 500;
+}
+.sub-categorias-texto p{
+  display: block;
+  margin: 10px 0;
+  text-align: justify;
+  font-size:18px ;
+  color: #636161;
+ 
+}

@@ -115,7 +115,7 @@ const ThermowoodRadiata = () => {
                                 </div>
                                 <div className="subcategorias-texto--info">
                                     <p>
-                                        La Thermo modified (radiata) tiene
+                                        Thermowood (radiata) tiene
                                         una apariencia impecable. Esta
                                         madera es lisa, sin nudos
                                         y visualmente impactante, lo que la

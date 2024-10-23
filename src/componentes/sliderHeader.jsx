@@ -49,13 +49,13 @@ const SliderHeader = () => {
                 <SwiperSlide className='slider-container'>
                     <div className='slider-texto'>
                         <h2 className='slider-titulo'>
-                            Sobre Nosotros
+                           Thermowood
                         </h2>
-                        <p className='slider-parrafo'>
+                        {/* <p className='slider-parrafo'>
                             Somos los principales distribuidores de maderas decorativas
                             de lujo en el mercado dominicano.
-                        </p>
-                        <NavLink to='/about' className='slider-btn' >
+                        </p> */}
+                        <NavLink to='/thermowood' className='slider-btn' >
                             Leer más
                         </NavLink>
                     </div>
@@ -64,13 +64,13 @@ const SliderHeader = () => {
                 <SwiperSlide className='slider-container'>
                     <div className='slider-texto'>
                         <h2 className='slider-titulo'>
-                            Sobre Nosotros
+                           Maderas Tropicales
                         </h2>
-                        <p className='slider-parrafo'>
+                        {/* <p className='slider-parrafo'>
                             Somos los principales distribuidores de maderas decorativas
                             de lujo en el mercado dominicano.
-                        </p>
-                        <NavLink to='/about' className='slider-btn' >
+                        </p> */}
+                        <NavLink to='/maderas-tropicales' className='slider-btn' >
                             Leer más
                         </NavLink>
                     </div>
@@ -79,13 +79,13 @@ const SliderHeader = () => {
                 <SwiperSlide className='slider-container'>
                     <div className='slider-texto'>
                         <h2 className='slider-titulo'>
-                            Sobre Nosotros
+                            Compuestos
                         </h2>
-                        <p className='slider-parrafo'>
+                        {/* <p className='slider-parrafo'>
                             Somos los principales distribuidores de maderas decorativas
                             de lujo en el mercado dominicano.
-                        </p>
-                        <NavLink to='/about' className='slider-btn' >
+                        </p> */}
+                        <NavLink to='/compuestos' className='slider-btn' >
                             Leer más
                         </NavLink>
                     </div>

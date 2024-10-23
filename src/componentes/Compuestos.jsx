@@ -6,8 +6,8 @@ import Footer from '../Layouts/Footer';
 import '../Css/compuestos.css'
 
 /*Imagenes */
-import headerCompuesto from '../assets/compuestos/compuestoPrincipal.png';
-import compuestos from '../assets/compuestos/compustos1.png';
+import headerCompuesto from '../assets/compuestos/compuestoPrincipal.jpg';
+import compuestos from '../assets/compuestos/compuestos1.jpg';
 
 
 /*ANIMACIONES */
@@ -45,9 +45,7 @@ const Compuestos = () => {
                 <section className="header-subcategorias">
                     <div className="header-subcategorias--container">
                         <div className="header-subcategorias--textos">
-                            <p>Diseñado para máxima durabilidad, el compuesto resiste la
-                                decoloración, las manchas, los arañazos y el moho, no se
-                                pudre, agrieta ni deforma.
+                            <p>Diseñado para máxima durabilidad! Los compuestos resisten la decoloración, manchas, abrasión o desgaste y el moho. No se pudre, agrieta ni deforma.
                             </p>
                         </div>
                         <div className="header-subcategorias-line"></div>
