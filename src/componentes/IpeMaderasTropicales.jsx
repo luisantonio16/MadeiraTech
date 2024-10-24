@@ -71,10 +71,10 @@ const IpeMaderasTropicales = () => {
                     </div>
                     <p className='circle-texto-left'>Resistencia al fuego clase
                                                 A, comparado al acero y
-                                                hormigon.</p>
+                                                hormigón.</p>
                 </div>
                 <div className="circle circle-bottom-left">
-                    <p>Resistente alas termitas.</p>
+                    <p>Resistente a las termitas.</p>
                     <div className='circle-imagenes'>
                         <img src={heart3} alt="" />
                     </div>
@@ -83,13 +83,12 @@ const IpeMaderasTropicales = () => {
                     <div className='circle-imagenes'>
                         <img src={heart2} alt="" />
                     </div>
-                    <p>Resistente alos cambios
-                    climaticos, no se deforma.</p>
+                    <p>Resistente a los cambios climáticos, no se deforma.</p>
                 </div>
             </div>
         </section>
         <section className='sub-categorias-contact'>
-            <NavLink to='/contacto' className="contact-button">Contacto</NavLink>
+            <NavLink to='/contacto' className="contact-button">Contáctanos</NavLink>
         </section>
 
         <section className="sub-categorias-textos">
@@ -98,7 +97,7 @@ const IpeMaderasTropicales = () => {
                     <div className="arcodeon-container">
                         <div className="acordeon-items">
                             <div className="acordeon-titulos" onClick={() => toggleAcordeon(0)}>
-                                <h2>Perfil/Terminaciones</h2>
+                                <h2>Perfil / Terminaciones</h2>
                                 <img src={arrow} alt="" />
                             </div>
                             <div className={`acordeon-informacion ${openIndex === 0 ? 'open' : ''}`}>
@@ -122,7 +121,7 @@ const IpeMaderasTropicales = () => {
                     </div>
                 </div>
                 <div className="sub-categorias-texto">
-                    <h2>Caracteristicas Principales</h2>
+                    <h2>Características Principales</h2>
                     <p>Madera tropical que se destaca por su resistencia y durabilida. Su color varía de un marrón dorado a un marrón oscuro, a menudo con vetas más oscuras que añaden belleza y carácter.</p>
 
                 </div>

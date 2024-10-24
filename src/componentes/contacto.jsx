@@ -25,7 +25,7 @@ const Contacto = () => {
                             <input type="text" placeholder='Apellidos' className='inpunts' />
                         </div>
                         <div className='form-inpunts'>
-                            <input type="text" placeholder='Telefono' className='inpunts' />
+                            <input type="text" placeholder='Teléfono' className='inpunts' />
                         </div>
 
                         <div className='form-inpunts'>
@@ -33,7 +33,7 @@ const Contacto = () => {
                         </div>
                         <div className='form-inpunts'>
                             <select  className='inpunts'>
-                                <option value="someOption">Profesion</option>
+                                <option value="someOption">Profesión</option>
                                 <option value="otherOption">Arquitecto</option>
                                 <option value="otherOption">Ingeniero Civil</option>
                                 <option value="otherOption">Gerente de Construccion</option>
@@ -48,7 +48,7 @@ const Contacto = () => {
 
                         <div className='form-inpunts'>
                             <select  className='inpunts'>
-                                <option value="someOption">Ubicacion</option>
+                                <option value="someOption">Ubicación</option>
                                 <option value="otherOption">Región Norte</option>
                                 <option value="otherOption">Región Este</option>
                                 <option value="otherOption">Región Sur</option>
@@ -77,7 +77,7 @@ const Contacto = () => {
                                 <option value="otherOption">Diseño</option>
                             </select>
                             <select  className='select'>
-                                <option value="someOption">Pies cuadrado de proyecto</option>
+                                <option value="someOption">Pies cuadrados de proyecto</option>
                                 <option value="otherOption">5-15 m2</option>
                                 <option value="otherOption">15'30 m2</option>
                                 <option value="otherOption">30m2 o mas</option>

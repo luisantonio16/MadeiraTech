@@ -45,7 +45,7 @@ const Compuestos = () => {
                 <section className="header-subcategorias">
                     <div className="header-subcategorias--container">
                         <div className="header-subcategorias--textos">
-                            <p>Diseñado para máxima durabilidad! Los compuestos resisten la decoloración, manchas, abrasión o desgaste y el moho. No se pudre, agrieta ni deforma.
+                            <p>¡Diseñado para máxima durabilidad! Los compuestos resisten la decoloración, manchas, abrasión o desgaste y el moho. No se pudre, agrieta ni deforma.
                             </p>
                         </div>
                         <div className="header-subcategorias-line"></div>
@@ -77,7 +77,7 @@ const Compuestos = () => {
                                         revestimientos y vigas.
                                     </p>
 
-                                    <NavLink to='/compuestos/norx' className='subcategoria-btn'>Saber Mas</NavLink>
+                                    <NavLink to='/compuestos/norx' className='subcategoria-btn'>Saber más</NavLink>
                                 </div>
                             </div>
                         </div>

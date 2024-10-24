@@ -48,7 +48,7 @@ const HomeLumber = () => {
       <div className="lumber-footer">
         <div className="lumber-footer--container">
           <p>Tus espacios decorados con la madera de la más alta calidad,
-            con una acabado elegante y resistencia inigualable.</p>
+            con un acabado elegante y resistencia inigualable.</p>
 
         </div>
 

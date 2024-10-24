@@ -87,7 +87,7 @@ const Norx = () => {
                         <div className="arcodeon-container">
                             <div className="acordeon-items">
                                 <div className="acordeon-titulos" onClick={() => toggleAcordeon(0)}>
-                                    <h2>Perfil/Terminaciones</h2>
+                                    <h2>Perfil / Terminaciones</h2>
                                     <img src={arrow} alt="" />
                                 </div>
                                 <div className={`acordeon-informacion ${openIndex === 0 ? 'open' : ''}`}>

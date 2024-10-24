@@ -73,7 +73,7 @@ const ThermowoodRadiata = () => {
                                         Esta madera, reconocida como la reina de los techos, irradia elegancia. ES ligera fácil de instalar y está respaldada por una sustancial vida útil de 25 años de belleza y calidad que perduran.
                                     </p>
 
-                                    <NavLink className='subcategoria-btn'>Saber Mas</NavLink>
+                                    <NavLink className='subcategoria-btn'>Saber más</NavLink>
                                 </div>
                             </div>
                         </div>
@@ -95,7 +95,7 @@ const ThermowoodRadiata = () => {
                                         a la putrefacción y al deterioro.
                                     </p>
 
-                                    <NavLink className='subcategoria-btn'>Saber Mas</NavLink>
+                                    <NavLink className='subcategoria-btn'>Saber más</NavLink>
                                 </div>
                             </div>
                             <div className="subcategoria-imagenes"  data-aos="fade-left">
@@ -124,7 +124,7 @@ const ThermowoodRadiata = () => {
                                         interiores como en exteriores.
                                     </p>
 
-                                    <NavLink className='subcategoria-btn'>Saber Mas</NavLink>
+                                    <NavLink className='subcategoria-btn'>Saber más</NavLink>
                                 </div>
                             </div>
                         </div>
@@ -141,13 +141,13 @@ const ThermowoodRadiata = () => {
                                     <p>
                                         El arce ceniza (también conocido
                                         como arce blanco, arce de ceniza
-                                        o ash tree en inglés)es un árbol
+                                        o ash tree es: ingles) es un árbol
                                         perteneciente al género
                                         Fraxinus, que es parte de la
                                         familia de las oleáceas.
                                     </p>
 
-                                    <NavLink className='subcategoria-btn'>Saber Mas</NavLink>
+                                    <NavLink className='subcategoria-btn'>Saber más</NavLink>
                                 </div>
                             </div>
                             <div className="subcategoria-imagenes"  data-aos="fade-left">

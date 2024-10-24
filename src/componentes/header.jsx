@@ -44,7 +44,7 @@ const Header = () => {
                             </div>
                             <div className='nav-item'>
                                 <NavLink to='/catalogo'  className={({isActive})=> isActive ? 'active': 'nav-items'}>
-                                    Catalago
+                                    Catálogo
                                 </NavLink>
                             </div>
 

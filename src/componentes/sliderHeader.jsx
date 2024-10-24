@@ -49,12 +49,14 @@ const SliderHeader = () => {
                 <SwiperSlide className='slider-container'>
                     <div className='slider-texto'>
                         <h2 className='slider-titulo'>
-                           Thermowood
+                            Thermowood
                         </h2>
-                        {/* <p className='slider-parrafo'>
-                            Somos los principales distribuidores de maderas decorativas
-                            de lujo en el mercado dominicano.
-                        </p> */}
+                        <p className='slider-parrafo'>
+                            Tratada térmicamente para ofrecer
+                            durabilidad superior, resistencia a la
+                            humedad y estabilidad dimensional.
+
+                        </p>
                         <NavLink to='/thermowood' className='slider-btn' >
                             Leer más
                         </NavLink>
@@ -64,12 +66,15 @@ const SliderHeader = () => {
                 <SwiperSlide className='slider-container'>
                     <div className='slider-texto'>
                         <h2 className='slider-titulo'>
-                           Maderas Tropicales
+                            Maderas Tropicales
                         </h2>
-                        {/* <p className='slider-parrafo'>
-                            Somos los principales distribuidores de maderas decorativas
-                            de lujo en el mercado dominicano.
-                        </p> */}
+                        <p className='slider-parrafo'>
+                            Material antiguo y noble, cobra vida en tus
+                            espacios. Con la más fina selección y
+                            tecnología, nuestras maderas, listas para
+                            abrazar tus sueños, aportarán una belleza
+                            única que transformará cada rincón.
+                        </p>
                         <NavLink to='/maderas-tropicales' className='slider-btn' >
                             Leer más
                         </NavLink>
@@ -79,12 +84,14 @@ const SliderHeader = () => {
                 <SwiperSlide className='slider-container'>
                     <div className='slider-texto'>
                         <h2 className='slider-titulo'>
-                            Compuestos
+                            Nuestros Aliados
                         </h2>
-                        {/* <p className='slider-parrafo'>
-                            Somos los principales distribuidores de maderas decorativas
-                            de lujo en el mercado dominicano.
-                        </p> */}
+                        <p className='slider-parrafo'>
+                            Comprometidos con la excelencia y la innovación.
+                            Juntos, trabajamos para ofrecer soluciones de alta
+                            calidad que destacan la belleza y durabilidad de la
+                            madera en cada proyecto.
+                        </p>
                         <NavLink to='/compuestos' className='slider-btn' >
                             Leer más
                         </NavLink>

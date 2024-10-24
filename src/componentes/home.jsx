@@ -48,9 +48,9 @@ const Home = () => {
             </div>
             <div className="home-section--texto" data-aos="fade-left" data-aos-delay="400">
               <p>
-                Distribuidores de maderas decorativas de lujo para el mercado
+                Distribuidores de maderas decorativas para el mercado
                 dominicano, representantes exclusivos de la prestigiosa marca
-                norteamericana Lumber+ que combina; calidad, sostenibilidad e
+                norteamericana lumber+ que combina; calidad, sostenibilidad e
                 innovación para embellecer y enriquecer los espacios
                 arquitectónicos de nuestros clientes.
               </p>
@@ -62,27 +62,32 @@ const Home = () => {
 
       <section className="home-about">
         <div className="home-about-container--imagen">
-          <NavLink to='/maderas-tropicales'  className="imagen-container maderas">
-          <div >
-            <h2 className="imagen-titulo">Maderas Tropicales</h2>
-            <div className="imagen-texto">
-              <p>
-                Los Proyectos construidos conmaderas tropicales se destacan
-                por su calidez, elegancia y frescura inigualable.
-              </p>
+          <NavLink to='/maderas-tropicales' className="imagen-container maderas">
+            <div >
+              <h2 className="imagen-titulo">Maderas Tropicales</h2>
+              <div className="imagen-texto">
+                <p>
+                  Los Proyectos construidos con maderas tropicales se destacan
+                  por su calidez, elegancia y frescura inigualable.
+                </p>
+              </div>
             </div>
-          </div>
 
           </NavLink>
-         
+
           <NavLink to='/thermowood' className="imagen-container thermowood">
             <div >
 
-              <h2 className="imagen-titulo">Thermowood <br /> <span className="imagen-subtitulo">Thermo-Modified</span></h2>
+              <h2 className="imagen-titulo">Thermowood® </h2>
+              <h4>Powered by Novawood Technology</h4>
+              <span className="imagen-subtitulo">Thermo-Modified <br />(Clear Radiata)</span>
               <div className="imagen-texto">
                 <p>
-                  Diseñado para ofrecer durabilidad y una belleza atemporal , una
-                  madera liviana perfecta para paredes y techos.
+                  Diseñado para ofrecer durabilidad,
+                  belleza atemporal y sostenibilidad,
+                  Thermowood es una madera liviana
+                  de fácil instalación, ideal para
+                  paredes y techos
                 </p>
               </div>
 
@@ -90,25 +95,28 @@ const Home = () => {
           </NavLink>
           <NavLink to='/compuestos' className="imagen-container compuesto">
 
-      
-          <div >
-            <h2 className="imagen-titulo">Compuesto</h2>
-            <div className="imagen-texto">
-              <p>
-                Diseñados para una máxima durabilidad, el compuesto resiste la
-                decoloración, las manchas, los rayones y el moho, y no se
-                pudre, agrieta ni deforma.
-              </p>
+
+            <div >
+              <h2 className="imagen-titulo">Compuestos</h2>
+              <div className="imagen-texto">
+                <p>
+                  Máxima durabilidad y resistencia. Nuestros
+                  Compuestos NORX son altamente
+                  resistentes a las manchas, rayones y al moho,
+                  lo que los hace perfectos para fachadas
+                  exteriores.
+                </p>
+              </div>
             </div>
-          </div>
           </NavLink>
         </div>
-        
+
         <div className="home-about-footer">
           <div className="about-footer">
             <div>
-              <h3>¿Necesitas ayuda?</h3>
-              <p> Puedes ponerte en contacto con nosotros</p>
+              <h3>Estamos listos para ser tu aliado en tu próximo proyecto 
+              arquitectónico</h3>
+              {/* <p> Puedes ponerte en contacto con nosotros</p> */}
             </div>
             <div >
               <img src={imgCirculoMarron} className="about-img " />
@@ -141,17 +149,6 @@ const Home = () => {
         </div>
         <div className="section-five--imagen">
           <img src={homeMadera} className="five-imagen" />
-        </div>
-        <div className="five-texto">
-          <div className="texto-camion-1">
-            <img src={truck} className="truck" />
-          </div>
-          <div className="texto-titulo">
-            <p>Hacemos entregas en cualquier lugar del país</p>
-          </div>
-          <div className="texto-camion-1">
-            <img src={truck} className="truck" />
-          </div>
         </div>
         <div className="five-enlace-three">
           <NavLink to='/contacto'>

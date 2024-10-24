@@ -54,21 +54,12 @@ const AboutUs = () => {
             <section className='about-container-informacion'>
                 <section className='about-container'>
                     <div className='about-info'>
-                        <p> Contamos con el inventario de maderas decorativas mas
-                            imortante en el mercado dominicano, orgullosos
-                            representantes exclusivos de la renombrada marca
-                            norteamericana Lumber+. Nuestros productos combinan
-                            calidad, sostenibilidad e innovación, proporcionando
-                            soluciones únicas y elegantes para embellecer y
-                            enriquecer los espacios arquitectónicos de nuestros
-                            clientes.</p>
+                        <p> Contamos con el inventario de maderas decorativas más imortante en el mercado dominicano, orgullosos representantes exclusivos de la renombrada marca norteamericana lumber+. Nuestros productos combinan calidad, sostenibilidad e innovación, proporcionando soluciones únicas y elegantes para embellecer y enriquecer los espacios arquitectónicos de nuestros clientes.
+                        </p>
                     </div>
                     <div className='about-info'>
-                        <p> Nada como la madera natural para lograr un impacto
-                            unico. Nuestro compromise es ofrecer las mejores
-                            especies con terminacion de primera, siempre
-                            observando las mejores practicas de sostenibilidad y
-                            respeto al medio ambiente.</p>
+                        <p> Nada como la madera natural para lograr un impacto único. Nuestro compromiso es ofrecer las mejores especies con terminación de primera, siempre observando las mejores prácticas de sostenibilidad y respeto al medio ambiente.
+                        </p>
                     </div>
 
                 </section>
@@ -98,13 +89,13 @@ const AboutUs = () => {
                         <div className='mision-info'>
                             <h2>Misión</h2>
                             <p> Proveer soluciones de madera decorativa y
-                                derivados en la Republica Dominicana,
+                                derivados en la República Dominicana,
                                 combinando calidad, responsablidad con el
                                 medio ambiente e innovación para
                                 embellecer y enriquecer los proyectos
-                                arquitectócos de nuestros clientes,
+                                arquitectónicos de nuestros clientes,
                                 superando sus expectativas, así como las de
-                                nuestros directores y accionista, a través de
+                                nuestros directores y accionistas, a través de
                                 un servicio personalizado y profesional.</p>
                         </div>
 
@@ -122,7 +113,7 @@ const AboutUs = () => {
                             <h2>Visión</h2>
                             <p> Ser la empresa de distribución líder en
                                 materiales de construcción en República
-                                Dominicana y el Caribe, destacándonos por la exelencia
+                                Dominicana y el Caribe, destacándonos por la excelencia
                                  de nuestros productos, los más
                                 altos estándares de calidad, un firme
                                 compromiso con la sostenibilidad y una
@@ -164,8 +155,8 @@ const AboutUs = () => {
                             </div>
                             <div className="about-card-info">
                                 <h2>Resposabilidad</h2>
-                                <p> Responsabilidad ambiental en la seleccion y manejo
-                                    de nuestros recursos, promoviendo practicas sostenibles en
+                                <p> Responsabilidad ambiental en la selección y manejo
+                                    de nuestros recursos, promoviendo prácticas sostenibles en
                                     toda la cadena de suministro.</p>
 
                             </div>
@@ -197,7 +188,7 @@ const AboutUs = () => {
                 </div>
 
                 <div className='about-contact--button'>
-                    <NavLink to='/contacto' className='about-contact--btn'>Contactanos</NavLink>
+                    <NavLink to='/contacto' className='about-contact--btn'>Contáctanos</NavLink>
                 </div>
 
 

@@ -14,6 +14,7 @@ import MaderasTropicales from '../componentes/MaderasTropicales';
 import ThermowoodRadiata from '../componentes/ThermowoodRadiata';
 import Norx from '../componentes/Norx';
 import IpeMaderasTropicales from '../componentes/IpeMaderasTropicales';
+import CumaruMaderasTropicales from '../componentes/CumaruMaderasTropicales';
 
 
 
@@ -52,6 +53,7 @@ const AppContent = () => {
                     <Route path='/thermowood' element={<ThermowoodRadiata />} /> 
                     <Route path='/compuestos/norx' element={<Norx />} /> 
                     <Route path='/maderas-tropicales/ipe' element={<IpeMaderasTropicales />} /> 
+                    <Route path='/maderas-tropicales/cumaru' element={<CumaruMaderasTropicales />} /> 
                 </Routes>
             </CSSTransition>
           </TransitionGroup>

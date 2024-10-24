@@ -46,7 +46,7 @@ const MaderasTropicales = () => {
                 <section className="header-subcategorias">
                     <div className="header-subcategorias--container">
                         <div className="header-subcategorias--textos">
-                            <p>Los Proyectos construidos con maderas tropicales
+                            <p>Los Proyectos construidos con Maderas Tropicales
                                 se destacan por su calidez, elegancia y
                                 frescura inigualable.
                             </p>
@@ -70,15 +70,10 @@ const MaderasTropicales = () => {
                                 </div>
                                 <div className="subcategorias-texto--info">
                                     <p>
-                                        Toda nuestra madera Cumarú
-                                        está meticulosamente clasificada,
-                                        seleccionada a mano y S4S E4E
-                                        (Cepillada en 4 lados y con bordes
-                                        suavizados en 4 lados)para un
-                                        acabado suave y pulido.
+                                    Se considera una madera de alta durabilidad, clasificada como muy resistente a la intemperie y a los ataques de insectos y hongos, lo que la hace ideal para uso exterior, como terrazas y mobiliario de jardín.
                                     </p>
 
-                                    <NavLink className='subcategoria-btn'>Saber Mas</NavLink>
+                                    <NavLink to="/maderas-tropicales/cumaru" className='subcategoria-btn'>Saber más</NavLink>
                                 </div>
                             </div>
                         </div>
@@ -88,21 +83,15 @@ const MaderasTropicales = () => {
                             <div className="subcategorias-texto" data-aos="fade-right">
                                 <div className='subcategorias-titulos'>
                                     <h2 className='subcategorias-titulo'>
-                                        IPE
+                                        Ipé
                                     </h2>
                                 </div>
                                 <div className="subcategorias-texto--info">
                                     <p>
-                                        Toda nuestra madera dura
-                                        Ipe está meticulosamente
-                                        clasificada, seleccionada a
-                                        mano y S4S E4E(acabada
-                                        en 4 lados y con bordes
-                                        redondeados en 4 lados)
-                                        para una terminación suave.
+                                    Madera tropical que se destaca por su resistencia y durabilida. Su color varía de un marrón dorado a un marrón oscuro, a menudo con vetas más oscuras que añaden belleza y carácter.
                                     </p>
 
-                                    <NavLink to='/maderas-tropicales/ipe' className='subcategoria-btn'>Saber Mas</NavLink>
+                                    <NavLink to='/maderas-tropicales/ipe' className='subcategoria-btn'>Saber más</NavLink>
                                 </div>
                             </div>
                             <div className="subcategoria-imagenes" data-aos="fade-left">
