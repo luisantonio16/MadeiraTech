@@ -210,8 +210,8 @@ margin-top: 190px;
 .circle-imagenes{
   position: relative;
   display: block;
-  width: 145px;
-  height: 145px;
+  width: 135px;
+  height: 135px;
   border-radius: 50%;
   padding: 20px;
   background-color: var(--color-Primary);
@@ -229,40 +229,40 @@ margin-top: 190px;
   display: block;
   margin: 10px auto;
   text-align: center;
-  font-size: 50px;
+  font-size: 44px;
   font-weight: 700;
   color: white;
 }
 .circle-left{
   position: absolute;
   top: 20px;
-  left: 100px;
+  left: 350px;
 }
 .circle-right{
   position: absolute;
   top: 20px;
-  right: 100px;
+  right: 350px;
 }
 .circle-top{
   position: absolute;
   top: -180px;
-  left: 45%;
+  left: 44%;
 }
 
 .circle-bottom-left{
   position: absolute;
   bottom: 20px;
-  left: 100px;
+  left: 280px;
 }
 .circle-bottom-right{
   position: absolute;
   bottom: 20px;
-  right: 140px;
+  right: 280px;
 }
 .circle-bottom{
   position: absolute;
   bottom: -200px;
-  left: 46%;
+  left: 44%;
 }
 
 .sub-categorias-contact{

@@ -56,7 +56,6 @@ const IpeMaderasTropicales = () => {
                 </div>
 
                 <div className="circle circle-left">
-                  
                     <div className='circle-imagenes'>
                         <img src={heart} alt="" />
                     </div>
