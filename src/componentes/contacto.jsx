@@ -19,17 +19,17 @@ const Contacto = () => {
                     </div>
                     <form className='form'>
                         <div className='form-inpunts'>
-                            <input type="text" placeholder='Nombre' className='inpunts' />
+                            <input type="text" placeholder='Nombre*' className='inpunts' />
                         </div>
                         <div className='form-inpunts'>
-                            <input type="text" placeholder='Apellidos' className='inpunts' />
+                            <input type="text" placeholder='Apellidos*' className='inpunts' />
                         </div>
                         <div className='form-inpunts'>
-                            <input type="text" placeholder='Teléfono' className='inpunts' />
+                            <input type="text" placeholder='Teléfono*' className='inpunts' />
                         </div>
 
                         <div className='form-inpunts'>
-                            <input type="text" placeholder='Correo' className='inpunts' />
+                            <input type="text" placeholder='Correo*' className='inpunts' />
                         </div>
                         <div className='form-inpunts'>
                             <select  className='inpunts'>
@@ -55,6 +55,19 @@ const Contacto = () => {
                                 <option value="otherOption">Districto Nacional</option>
                                 <option value="otherOption">Santo Domingo</option>
                                 <option value="otherOption">Internacional</option>
+                                <option value="otherOption">Otro</option>
+                            </select>
+                        </div>
+                        <div className='form-inpunts'>
+                            <select  className='inpunts'>
+                                <option value="someOption">Aplicación</option>
+                                <option value="otherOption">Pisos de Terraza</option>
+                                <option value="otherOption">Mobiliario</option>
+                                <option value="otherOption">Estructural</option>
+                                <option value="otherOption">Fachada</option>
+                                <option value="otherOption">Puertas</option>
+                                <option value="otherOption">Revestimientos Interiores</option>
+                                <option value="otherOption">Pasarelas o Pavimento exterior</option>
                                 <option value="otherOption">Otro</option>
                             </select>
                         </div>
