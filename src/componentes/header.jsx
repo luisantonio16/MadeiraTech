@@ -14,7 +14,8 @@ const Header = () => {
         <header className='header'>
             <div className='header-container'>
                 <div className='header-logo'>
-                    <img src={logoNav} className='logo-nav' />
+                    <NavLink to='/inicio'><img src={logoNav} className='logo-nav' /></NavLink>
+                    
                 </div>
                 <div className= {`header-menu  ${menuOpen ? "menu-show" : ""}`}>
                 <div className='header-menu-responsive-Logo'>

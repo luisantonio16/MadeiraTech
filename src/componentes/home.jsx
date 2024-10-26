@@ -8,7 +8,6 @@ import "../Css/style.css";
 import HomeImg from "../assets/home/logoHome.png";
 import imgSection from "../assets/home/home1.png";
 import imgCirculoMarron from '../assets/home/circuloMarron.png'
-import truck from '../assets/home/camioncito.png'
 import homeMadera from '../assets/home/homeMadera.png'
 import Plus from '../assets/home/plus.png'
 

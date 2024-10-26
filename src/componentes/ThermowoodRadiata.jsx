@@ -20,7 +20,7 @@ import 'aos/dist/aos.css';
 const ThermowoodRadiata = () => {
     useEffect(()=>{
         AOS.init({
-          duration: 3000, // Duración de la animación en milisegundos
+          duration: 2000, // Duración de la animación en milisegundos
     
         });
     
@@ -73,7 +73,7 @@ const ThermowoodRadiata = () => {
                                         Esta madera, reconocida como la reina de los techos, irradia elegancia. ES ligera fácil de instalar y está respaldada por una sustancial vida útil de 25 años de belleza y calidad que perduran.
                                     </p>
 
-                                    <NavLink className='subcategoria-btn'>Saber más</NavLink>
+                                    <NavLink to='/thermowood/ayous' className='subcategoria-btn'>Saber más</NavLink>
                                 </div>
                             </div>
                         </div>
@@ -95,7 +95,7 @@ const ThermowoodRadiata = () => {
                                         a la putrefacción y al deterioro.
                                     </p>
 
-                                    <NavLink className='subcategoria-btn'>Saber más</NavLink>
+                                    <NavLink to='/thermowood/pino' className='subcategoria-btn'>Saber más</NavLink>
                                 </div>
                             </div>
                             <div className="subcategoria-imagenes"  data-aos="fade-left">
@@ -124,7 +124,7 @@ const ThermowoodRadiata = () => {
                                         interiores como en exteriores.
                                     </p>
 
-                                    <NavLink className='subcategoria-btn'>Saber más</NavLink>
+                                    <NavLink to='/thermowood/radiata' className='subcategoria-btn'>Saber más</NavLink>
                                 </div>
                             </div>
                         </div>
@@ -147,7 +147,7 @@ const ThermowoodRadiata = () => {
                                         familia de las oleáceas.
                                     </p>
 
-                                    <NavLink className='subcategoria-btn'>Saber más</NavLink>
+                                    <NavLink to='/thermowood/ash' className='subcategoria-btn'>Saber más</NavLink>
                                 </div>
                             </div>
                             <div className="subcategoria-imagenes"  data-aos="fade-left">
