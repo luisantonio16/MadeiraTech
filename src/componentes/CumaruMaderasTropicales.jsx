@@ -10,6 +10,7 @@ import heart1 from "../assets/norxSubCategoria/virus_ipe.png"
 import heart2 from "../assets/norxSubCategoria/storm_ipe.png"
 import heart3 from "../assets/norxSubCategoria/lab_cumaru.png"
 import heart4 from "../assets/norxSubCategoria/fire_ipe.png"
+import ayousMadera from "../assets/norxSubCategoria/ayous/maderas_ayous.png"
 
 import arrow from '../assets/norxSubCategoria/arrow.png'
 import norx1 from '../assets/norxSubCategoria/etiquetas_cumaru_ipe.png'
@@ -50,7 +51,9 @@ const IpeMaderasTropicales = () => {
 
         <section className='sub-categorias--informacion'>
             <div className="design-container">
-                <div className="wood-image-ipe"></div>
+                <div >
+                  <img className='wood-image-ipe' src={ayousMadera} alt="" />
+                </div>
 
                 <div className="circle circle-left">
                   
@@ -67,13 +70,13 @@ const IpeMaderasTropicales = () => {
                     moho y hongos.</p>
                 </div>
                 <div className="circle circle-top">
-                
+                <p className='circle-texto-left'>Resistencia al fuego clase
+                                                A, comparado al acero y
+                                                hormigón.</p>
                     <div className='circle-imagenes'>
                         <img src={heart4} alt="" />
                     </div>
-                    <p className='circle-texto-left'>Resistencia al fuego clase
-                                                A, comparado al acero y
-                                                hormigón.</p>
+                  
                 </div>
                 <div className="circle circle-bottom-left">
                  

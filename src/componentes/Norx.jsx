@@ -8,6 +8,7 @@ import heart from "../assets/norxSubCategoria/Heart_Norx.png"
 import heart1 from "../assets/norxSubCategoria/settings_Norx.png"
 import heart2 from "../assets/norxSubCategoria/recycle_norx.png"
 import heart3 from "../assets/norxSubCategoria/Scales_norx.png"
+import ashMadera from "../assets/norxSubCategoria/ASH/madera_Ash.png"
 
 import arrow from '../assets/norxSubCategoria/arrow.png'
 import norx1 from '../assets/norxSubCategoria/revestimientos.png'
@@ -49,13 +50,15 @@ const Norx = () => {
 
             <section className='sub-categorias--informacion'>
                 <div className="design-container">
-                    <div className="wood-image"></div>
+                    <div >
+                       <img className="wood-image-Ash" src={ashMadera}  />
+                    </div>
 
                     <div className="circle circle-left">
-                        <p className='circle-texto-left'>Vida útil más de 50 años.</p>
                         <div className='circle-imagenes'>
                             <img src={heart} alt="" />
                         </div>
+                        <p className='circle-texto-left'>Vida útil más de 50 años.</p>
                     </div>
                     <div className="circle circle-right">
                         <div className='circle-imagenes'>
@@ -64,10 +67,11 @@ const Norx = () => {
                         <p>95% material reciclado.</p>
                     </div>
                     <div className="circle circle-bottom-left">
-                        <p>Mínimo Mantenimiento.</p>
+                       
                         <div className='circle-imagenes'>
                             <img src={heart1} alt="" />
                         </div>
+                        <p>Mínimo Mantenimiento.</p>
                     </div>
                     <div className="circle circle-bottom-right">
                         <div className='circle-imagenes'>

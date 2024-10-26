@@ -166,12 +166,9 @@ margin-top: 190px;
 .wood-image-ipe{
   display: block;
   margin: auto;
-  width: 500px;
-  height: 500px;
-  background-image: url('../assets/norxSubCategoria/ipe_madera.png');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  width: 450px;
+  height: 510px;
+
 }
 .wood-image-Ayous{
   display: block;
@@ -244,6 +241,8 @@ margin-top: 190px;
   right: 350px;
 }
 .circle-top{
+  display: flex;
+  flex-direction: row-reverse;
   position: absolute;
   top: -180px;
   left: 44%;
