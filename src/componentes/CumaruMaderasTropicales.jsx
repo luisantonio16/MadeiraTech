@@ -53,10 +53,11 @@ const IpeMaderasTropicales = () => {
                 <div className="wood-image-ipe"></div>
 
                 <div className="circle circle-left">
-                    <p className='circle-texto-left'>Vida útil más de 25 años.</p>
+                  
                     <div className='circle-imagenes'>
                         <img src={heart} alt="" />
                     </div>
+                    <p className='circle-texto-left'>Vida útil más de 25 años.</p>
                 </div>
                 <div className="circle circle-right">
                     <div className='circle-imagenes'>
@@ -75,10 +76,11 @@ const IpeMaderasTropicales = () => {
                                                 hormigón.</p>
                 </div>
                 <div className="circle circle-bottom-left">
-                    <p>Resistente a la prutrefacción.</p>
+                 
                     <div className='circle-imagenes'>
                         <img src={heart3} alt="" />
                     </div>
+                    <p>Resistente a la prutrefacción.</p>
                 </div>
                 <div className="circle circle-bottom-right">
                     <div className='circle-imagenes'>
