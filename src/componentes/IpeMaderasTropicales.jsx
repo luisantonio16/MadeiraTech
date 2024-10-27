@@ -56,11 +56,12 @@ const IpeMaderasTropicales = () => {
                 </div>
 
                 <div className="circle circle-left">
-                  
                     <div className='circle-imagenes'>
-                        <img src={heart} alt="" />
+                        <img src={heart4} alt="" />
                     </div>
-                    <p className='circle-texto-left'>Vida útil más de 50 años.</p>
+                    <p className='circle-texto-left'>Resistencia al fuego clase
+                                                A, comparado al acero y
+                                                hormigón.</p>
                 </div>
                 <div className="circle circle-right">
                     <div className='circle-imagenes'>
@@ -70,13 +71,10 @@ const IpeMaderasTropicales = () => {
                     hongos.</p>
                 </div>
                 <div className="circle circle-top">
-                <p className='circle-texto-left'>Resistencia al fuego clase
-                                                A, comparado al acero y
-                                                hormigón.</p>
-                    <div className='circle-imagenes'>
-                        <img src={heart4} alt="" />
+                   <div className='circle-imagenes'>
+                        <img src={heart} alt="" />
                     </div>
-
+                    <p className='circle-texto-left'>Vida útil más de 50 años.</p>
                 </div>
                 <div className="circle circle-bottom-left">
                   
@@ -86,6 +84,7 @@ const IpeMaderasTropicales = () => {
                     <p>Resistente a las termitas.</p>
                 </div>
                 <div className="circle circle-bottom-right">
+                    
                     <div className='circle-imagenes'>
                         <img src={heart2} alt="" />
                     </div>

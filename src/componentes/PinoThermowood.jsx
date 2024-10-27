@@ -69,10 +69,10 @@ const PinoThermowood = () => {
                     <p>Minimo Rendimiento.</p>
                 </div>
                 <div className="circle circle-top">
-                <p className='circle-texto-left'>vida Util.</p>
                     <div className='circle-imagenes'>
                         <h2 className='circle-imagen-texto'>+ 25</h2>
                     </div>
+                    <p className='circle-texto-left'>vida Util.</p>
                     
                 </div>
                 <div className="circle circle-bottom-left">
