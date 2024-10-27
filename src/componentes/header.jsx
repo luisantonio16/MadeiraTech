@@ -6,10 +6,10 @@ import { NavLink } from 'react-router-dom';
 
 const Header = () => {
     const [menuOpen, setMenuOpen] = useState(false);
+    const toggleMenu = () => {
+       setMenuOpen(!menuOpen);
+    };
 
-  const toggleMenu = () => {
-    setMenuOpen(!menuOpen);
-  };
     return (
         <header className='header'>
             <div className='header-container'>
@@ -31,11 +31,6 @@ const Header = () => {
                             <div className='nav-item'>
                                 <NavLink to='/about'  className={({isActive})=> isActive ? 'active': 'nav-items'}>
                                     Sobre nosotros
-                                </NavLink>
-                            </div>
-                            <div className='nav-item'>
-                                <NavLink to='/productos'  className={({isActive})=> isActive ? 'active': 'nav-items'}>
-                                    Productos
                                 </NavLink>
                             </div>
                             <div className='nav-item'>

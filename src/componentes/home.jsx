@@ -59,7 +59,7 @@ const Home = () => {
         </div>
       </section>
 
-      <section className="home-about">
+      <section className="home-about" >
         <div className="home-about-container--imagen">
           <NavLink to='/maderas-tropicales' className="imagen-container maderas">
             <div >
