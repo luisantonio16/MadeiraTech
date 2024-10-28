@@ -77,16 +77,16 @@ const Contacto = () => {
                                 <option value="someOption">Tipo Proyecto</option>
                                 <option value="otherOption">Proyecto Comercial Retail</option>
                                 <option value="otherOption">Proyecto inmobiliario Residencial</option>
-                                <option value="otherOption">Proyecto Publico</option>
-                                <option value="otherOption">Proyecto de Remodelacion</option>
-                                <option value="otherOption">Proyecto Turistico</option>
+                                <option value="otherOption">Proyecto Público </option>
+                                <option value="otherOption">Proyecto de remodelación </option>
+                                <option value="otherOption">Proyecto turístico </option>
                                 <option value="otherOption">Otro</option>
                             </select>
                             <select  className='select'>
                                 <option value="someOption">Tiempo Proyecto</option>
-                                <option value="otherOption">Planificacion y Conceptualizacion</option>
-                                <option value="otherOption">Preconstruccion</option>
-                                <option value="otherOption">Construccion en Pogreso</option>
+                                <option value="otherOption">Planificación  y Conceptualización</option>
+                                <option value="otherOption">Reconstrucción</option>
+                                <option value="otherOption">Construcción  en Pogreso</option>
                                 <option value="otherOption">Diseño</option>
                             </select>
                             <select  className='select'>

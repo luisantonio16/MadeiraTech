@@ -70,7 +70,7 @@ const ThermowoodRadiata = () => {
                                 </div>
                                 <div className="subcategorias-texto--info">
                                     <p>
-                                        Esta madera, reconocida como la reina de los techos, irradia elegancia. ES ligera fácil de instalar y está respaldada por una sustancial vida útil de 25 años de belleza y calidad que perduran.
+                                        Esta madera, reconocida como la reina de los techos, irradia elegancia. Es ligera fácil de instalar y está respaldada por una  vida útil de 25 años de belleza y calidad que perduran.
                                     </p>
 
                                     <NavLink to='/thermowood/ayous' className='subcategoria-btn'>Saber más</NavLink>
@@ -115,7 +115,7 @@ const ThermowoodRadiata = () => {
                                 </div>
                                 <div className="subcategorias-texto--info">
                                     <p>
-                                        Thermowood (radiata) tiene
+                                       Thermo-Modified (radiata) tiene
                                         una apariencia impecable. Esta
                                         madera es lisa, sin nudos
                                         y visualmente impactante, lo que la
@@ -141,7 +141,7 @@ const ThermowoodRadiata = () => {
                                     <p>
                                         El arce ceniza (también conocido
                                         como arce blanco, arce de ceniza
-                                        o ash tree es: ingles) es un árbol
+                                        o ash tree en ingles) es un árbol
                                         perteneciente al género
                                         Fraxinus, que es parte de la
                                         familia de las oleáceas.

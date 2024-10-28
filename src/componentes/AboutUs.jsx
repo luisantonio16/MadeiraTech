@@ -54,7 +54,7 @@ const AboutUs = () => {
             <section className='about-container-informacion'>
                 <section className='about-container'>
                     <div className='about-info'>
-                        <p> Contamos con el inventario de maderas decorativas más imortante en el mercado dominicano, orgullosos representantes exclusivos de la renombrada marca norteamericana lumber+. Nuestros productos combinan calidad, sostenibilidad e innovación, proporcionando soluciones únicas y elegantes para embellecer y enriquecer los espacios arquitectónicos de nuestros clientes.
+                        <p> Contamos con el inventario de maderas decorativas más importante en el mercado dominicano, orgullosos representantes exclusivos de la renombrada marca norteamericana lumber+. Nuestros productos combinan calidad, sostenibilidad e innovación, proporcionando soluciones únicas y elegantes para embellecer y enriquecer los espacios arquitectónicos de nuestros clientes.
                         </p>
                     </div>
                     <div className='about-info'>

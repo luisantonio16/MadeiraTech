@@ -180,16 +180,16 @@
 .thermowood h4 {
     position: absolute;
     top: 214px;
-    left: 25%;
+    left: 28%;
     text-align: center;
     color: white;
-    font-size:18px;
+    font-size:15px;
     font-weight: 500;
     text-shadow: 5px 5px 5px var(--color-Primary);
 }
 .thermowood span {
     position: absolute;
-    top: 250px;
+    top: 236px;
     left: 38%;
     text-align: center;
     color: white;

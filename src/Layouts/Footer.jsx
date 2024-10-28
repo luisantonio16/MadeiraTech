@@ -18,33 +18,33 @@ const Footer = () => {
                         <img src={imgFooter2} className='footer-logo' />
                     </div>
                     <div className='footer-sections'>
-                        <h2 className="items-one">Inicio</h2>
+                        <NavLink to="/" className="items-one">Inicio</NavLink>
 
                     </div>
                     <div className='footer-sections'>
-                        <h2 className="items-one">Sobre Nosotros</h2>
+                        <NavLink to="about" className="items-one">Sobre Nosotros</NavLink>
 
                     </div>
 
                     <div className='footer-sections'>
                         <h2 className="items-one">Productos</h2>
                         <ul>
-                            <li> <NavLink className='footer-items'>Maderas Tropicales</NavLink></li>
-                            <li> <NavLink className='footer-items'>Thermowood®
+                            <li> <NavLink to="/maderas-tropicales" className='footer-items'>Maderas Tropicales</NavLink></li>
+                            <li> <NavLink to="/thermowood" className='footer-items'>Thermowood
                             </NavLink></li>
-                            <li> <NavLink className='footer-items'>Compuestos</NavLink></li>
+                            <li> <NavLink to="/compuestos" className='footer-items'>Compuestos</NavLink></li>
                         </ul>
 
                     </div>
                     <div className='footer-sections'>
                         <h2 className="items-one"> Subcategorías</h2>
                         <ul>
-                            <li> <NavLink className='footer-items'>Norx</NavLink></li>
-                            <li> <NavLink className='footer-items'>Cumarú</NavLink></li>
-                            <li> <NavLink className='footer-items'>Ash</NavLink></li>
-                            <li> <NavLink className='footer-items'>Ayous</NavLink></li>
-                            <li> <NavLink className='footer-items'>Pine</NavLink></li>
-                            <li> <NavLink className='footer-items'>Ipé</NavLink></li>
+                            <li> <NavLink to="/compuestos/norx" className='footer-items'>Norx</NavLink></li>
+                            <li> <NavLink to="/maderas-tropicales/cumaru" className='footer-items'>Cumarú</NavLink></li>
+                            <li> <NavLink to="/thermowood/ash" className='footer-items'>Ash</NavLink></li>
+                            <li> <NavLink to="/thermowood/ayous" className='footer-items'>Ayous</NavLink></li>
+                            <li> <NavLink to="/thermowood/pino" className='footer-items'>Pino</NavLink></li>
+                            <li> <NavLink to="/maderas-tropicales/ipe" className='footer-items'>Ipé</NavLink></li>
                         </ul>
 
                     </div>

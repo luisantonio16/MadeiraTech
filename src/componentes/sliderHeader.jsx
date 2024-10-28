@@ -38,7 +38,7 @@ const SliderHeader = () => {
                         </h2>
                         <p className='slider-parrafo'>
                             Somos los principales distribuidores de maderas decorativas
-                            de lujo en el mercado dominicano.
+                            en el mercado dominicano.
                         </p>
                         <NavLink to='/about' className='slider-btn' >
                             Leer más

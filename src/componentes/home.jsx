@@ -66,7 +66,7 @@ const Home = () => {
               <h2 className="imagen-titulo">Maderas Tropicales</h2>
               <div className="imagen-texto">
                 <p>
-                  Los Proyectos construidos con maderas tropicales se destacan
+                  Los Proyectos construidos con Maderas Tropicales se destacan
                   por su calidez, elegancia y frescura inigualable.
                 </p>
               </div>
@@ -77,9 +77,9 @@ const Home = () => {
           <NavLink to='/thermowood' className="imagen-container thermowood">
             <div >
 
-              <h2 className="imagen-titulo">Thermowood® </h2>
-              <h4>Powered by Novawood Technology</h4>
-              <span className="imagen-subtitulo">Thermo-Modified <br />(Clear Radiata)</span>
+              <h2 className="imagen-titulo">Thermowood</h2>
+              <h4>Powered by Novawood Technologies</h4>
+              <span className="imagen-subtitulo">Thermo-Modified</span>
               <div className="imagen-texto">
                 <p>
                   Diseñado para ofrecer durabilidad,

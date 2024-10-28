@@ -42,7 +42,7 @@ const IpeMaderasTropicales = () => {
 
                 </section>
                 <div className='sub-categorias--titulo'>
-                    <h2 >IPE</h2>
+                    <h2 >IPÉ</h2>
                     <h3>Maderas Tropicales</h3>
                 </div>
             </section>

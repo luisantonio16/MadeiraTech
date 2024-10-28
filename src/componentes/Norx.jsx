@@ -82,7 +82,7 @@ const Norx = () => {
                 </div>
             </section>
             <section className='sub-categorias-contact'>
-                <NavLink to='/contacto' className="contact-button">Contacto</NavLink>
+                <NavLink to='/contacto' className="contact-button">Contáctanos</NavLink>
             </section>
 
             <section className="sub-categorias-textos">

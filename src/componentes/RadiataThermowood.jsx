@@ -59,19 +59,19 @@ const RadiataThermowood = () => {
                     <div className='circle-imagenes'>
                         <img src={heart} alt="" />
                     </div>
-                    <p className='circle-texto-left'>100% organica</p>
+                    <p className='circle-texto-left'>100% Orgánica</p>
                 </div>
                 <div className="circle circle-right">
                     <div className='circle-imagenes'>
                         <img src={heart1} alt="" />
                     </div>
-                    <p>Minimo Rendimiento.</p>
+                    <p>Minímo rendimiento.</p>
                 </div>
                 <div className="circle circle-top">
                     <div className='circle-imagenes'>
                         <h2 className='circle-imagen-texto'>+ 25</h2>
                     </div>
-                    <p className='circle-texto-left'>vida Util.</p>
+                    <p className='circle-texto-left'>Vida útil.</p>
           
                 </div>
                 <div className="circle circle-bottom-left">
@@ -79,13 +79,13 @@ const RadiataThermowood = () => {
                     <div className='circle-imagenes'>
                         <img src={heart3} alt="" />
                     </div>
-                    <p>sostenible</p>
+                    <p>Sostenible</p>
                 </div>
                 <div className="circle circle-bottom-right">
                     <div className='circle-imagenes'>
                         <img src={heart5} alt="" />
                     </div>
-                    <p>Alta Estabilidad.</p>
+                    <p>Alta estabilidad.</p>
                 </div>
                 <div className="circle circle-bottom">
                     <div className='circle-imagenes'>
