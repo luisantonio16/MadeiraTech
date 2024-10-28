@@ -130,7 +130,7 @@ const IpeMaderasTropicales = () => {
                 </div>
                 <div className="sub-categorias-texto">
                     <h2>Características Principales</h2>
-                    <p>Esta madera, reconocida como la reina de los techos, irradia elegancia. Es ligera fácil de instalar y está respaldada por una vida útil de 25 años de belleza y calidad que perduran.</p>
+                    <p>Esta madera, reconocida como la reina de los techos, irradia elegancia. Es ligera, fácil de instalar y está respaldada por una vida útil de 25 años de belleza y calidad que perduran.</p>
 
                 </div>
 

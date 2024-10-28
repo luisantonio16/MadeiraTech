@@ -113,7 +113,7 @@ const Home = () => {
         <div className="home-about-footer">
           <div className="about-footer">
             <div>
-              <h3>Estamos listos para ser tu aliado en tu próximo proyecto 
+              <h3>Estamos listos para ser tus aliados en tu próximo proyecto 
               arquitectónico</h3>
               {/* <p> Puedes ponerte en contacto con nosotros</p> */}
             </div>
