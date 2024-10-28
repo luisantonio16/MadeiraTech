@@ -70,7 +70,7 @@ const ThermowoodRadiata = () => {
                                 </div>
                                 <div className="subcategorias-texto--info">
                                     <p>
-                                        Esta madera, reconocida como la reina de los techos, irradia elegancia. Es ligera fácil de instalar y está respaldada por una  vida útil de 25 años de belleza y calidad que perduran.
+                                        Esta madera, reconocida como la reina de los techos, irradia elegancia. Es ligera, fácil de instalar y está respaldada por una  vida útil de 25 años de belleza y calidad que perduran.
                                     </p>
 
                                     <NavLink to='/thermowood/ayous' className='subcategoria-btn'>Saber más</NavLink>
