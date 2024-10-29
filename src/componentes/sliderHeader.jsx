@@ -92,7 +92,7 @@ const SliderHeader = () => {
                             calidad que destacan la belleza y durabilidad de la
                             madera en cada proyecto.
                         </p>
-                        <NavLink to='/compuestos' className='slider-btn' >
+                        <NavLink to='/about' className='slider-btn' >
                             Leer más
                         </NavLink>
                     </div>
