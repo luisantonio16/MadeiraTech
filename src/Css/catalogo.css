@@ -56,6 +56,28 @@
     justify-content: center;
   }
 
+  .catalogo-boton{
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    border-radius: 18px;
+  }
+  .catalogo-btn{
+    display: block;
+    margin: 30px auto;
+    width: 350px;
+    height: 100%;
+    padding: 12px;
+    border-radius: 10px;
+    background-color: var(--color-Primary);
+    color: white;
+    text-align: center;
+  }
+
+
+
+
   @media (max-width: 768px){
 
     .catalogo-container{
