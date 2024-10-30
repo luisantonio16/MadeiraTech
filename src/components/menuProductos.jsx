@@ -9,7 +9,7 @@ const MenuProductos = () => {
         <NavLink
           to="/maderas-tropicales"
           className={({ isActive }) =>
-            isActive ? "active font-bold!" : "font-normal"
+            isActive ? "active menu-productos-active" : ""
           }
         >
           Maderas Tropicales
@@ -18,7 +18,7 @@ const MenuProductos = () => {
         <NavLink
           to="/thermowood"
           className={({ isActive }) =>
-            isActive ? "active font-bold!" : "font-normal"
+            isActive ? "active menu-productos-active" : ""
           }
         >
           Thermowood
@@ -27,7 +27,7 @@ const MenuProductos = () => {
         <NavLink
           to="/compuestos"
           className={({ isActive }) =>
-            isActive ? "active font-bold!" : "font-normal"
+            isActive ? "active menu-productos-active" : ""
           }
         >
           Compuestos
