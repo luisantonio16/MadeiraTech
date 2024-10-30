@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 
 
-/*Sub Categorias Css*/
-import '../Css/subCategorias.css'
+/*Sub Categorias css*/
+import '../css/subCategorias.css'
 
 /*Imagenes*/
 import heart from "../assets/norxSubCategoria/ayous/icono_organico.png"
@@ -10,17 +10,18 @@ import heart1 from "../assets/norxSubCategoria/ayous/icono_mantenimiento.png"
 import heart2 from "../assets/norxSubCategoria/ayous/icono_humedad.png"
 import heart3 from "../assets/norxSubCategoria/ayous/icono_sostenible.png"
 import heart5 from "../assets/norxSubCategoria/ayous/ESTABILIDAD.png"
-import ayousMadera from "../assets/norxSubCategoria/radiata/maderaRadiata.png"
+import ayousMadera from "../assets/norxSubCategoria/ayous/maderas_ayous.png"
 
 import arrow from '../assets/norxSubCategoria/arrow.png'
 import norx1 from '../assets/norxSubCategoria/ayous/tablilla.png'
+import norx2 from '../assets/norxSubCategoria/pino/longitudes_tamañoPino.png'
 
 
 import { NavLink } from 'react-router-dom';
-import Footer from '../Layouts/Footer';
+import Footer from '../components/Footer';
 
 
-const RadiataThermowood = () => {
+const PinoThermowood = () => {
     const [openIndex, setOpenIndex] = useState(null);
 
 
@@ -41,7 +42,7 @@ const RadiataThermowood = () => {
 
                 </section>
                 <div className='sub-categorias--titulo'>
-                    <h2>Radiata</h2>
+                    <h2>PINO ESCANDINAVO</h2>
                     <h3>Thermowood</h3>
                 </div>
             </section>
@@ -59,7 +60,7 @@ const RadiataThermowood = () => {
                     <div className='circle-imagenes'>
                         <img src={heart} alt="" />
                     </div>
-                    <p className='circle-texto-left'>100% Orgánica</p>
+                    <p className='circle-texto-left'>100%  Orgánica</p>
                 </div>
                 <div className="circle circle-right">
                     <div className='circle-imagenes'>
@@ -72,7 +73,7 @@ const RadiataThermowood = () => {
                         <h2 className='circle-imagen-texto'>+ 25</h2>
                     </div>
                     <p className='circle-texto-left'>Vida útil.</p>
-          
+                    
                 </div>
                 <div className="circle circle-bottom-left">
                    
@@ -95,6 +96,7 @@ const RadiataThermowood = () => {
                 </div>
             </div>
         </section>
+        
         <section className='sub-categorias-contact'>
             <NavLink to='/contacto' className="contact-button">Contáctanos</NavLink>
         </section>
@@ -114,11 +116,23 @@ const RadiataThermowood = () => {
                                 </div>
                             </div>
                         </div>
+
+                        <div className="acordeon-items">
+                            <div className="acordeon-titulos" onClick={() => toggleAcordeon(1)}>
+                                <h2>Longitudes y Tamaños</h2>
+                                <img src={arrow} alt="" />
+                            </div>
+                            <div className={`acordeon-informacion ${openIndex === 1 ? 'open' : ''}`}>
+                                <div className='acordeon-info'>
+                                    <img src={norx2} alt="" />
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div className="sub-categorias-texto">
                     <h2>Características Principales</h2>
-                    <p>La madera termomodificada Radiata es lisa y tiene una apariencia impecable. Esta madera es sin nudos y visualmente impactante, lo que la convierte en una excelente opción para aplicaciones tanto en interiores como en exteriores. Su acabado refinado agrega un toque de elegancia a cualquier proyecto, desde ambientes exteriores hasta revestimientos de paredes y techos interiores. Este producto de vanguardia combina la belleza natural de la madera con tecnología avanzada, ofreciendo una durabilidad inigualable, resistencia a las inclemencias del tiempo y protección contra termitas.</p>
+                    <p>El Pino Escandinavo es una madera térmicamente modificada que presenta un color beige claro y una textura en nudos. Es una excelente opción para áreas con alta humedad, ya que es resistente a la putrefacción y al deterioro. Perfecta para soluciones contemporáneas o rústicas que prefieren el aspecto natural de la madera. Excelente para revestimientos de paredes y techos.</p>
 
                 </div>
 
@@ -133,4 +147,4 @@ const RadiataThermowood = () => {
     );
 }
 
-export default RadiataThermowood;
+export default PinoThermowood;

@@ -1,6 +1,6 @@
 import './App.css'
-import './Css/animacionesRutas.css'
-import './Css/Global.css'
+import './css/animacionesRutas.css'
+import './css/Global.css'
 import RoutesWrapper from './routes/routes'
 
 function App() {

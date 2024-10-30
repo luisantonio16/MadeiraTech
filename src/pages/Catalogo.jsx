@@ -1,8 +1,7 @@
-import React, { useState } from 'react';
-import Footer from '../Layouts/Footer';
-import PdfViewer from './PdfViewer';
+import { useState } from 'react';
+import Footer from '../components/Footer';
+import PdfViewer from '../components/PdfViewer';
 import { Swiper, SwiperSlide } from 'swiper/react';
-
 
 /*importando las imagenes */
 import cat1 from '../assets/catalogo/1.png'
@@ -24,7 +23,7 @@ import cat15 from '../assets/catalogo/15.jpg'
 
 
 /*css del catalogo */
-import '../Css/catalogo.css'
+import '../css/catalogo.css'
 
 
 // Import Swiper styles
@@ -37,10 +36,6 @@ import 'swiper/css/navigation';
 // import required modules
 import 'swiper/css/effect-coverflow';
 import { EffectCards } from 'swiper/modules';
-import { Worker, Viewer } from '@react-pdf-viewer/core';
-import { pdfjs } from 'react-pdf';
-
-
 
 const pdfUrl = '../assets/catalogo/catalogoMadeiraTech.pdf';
 

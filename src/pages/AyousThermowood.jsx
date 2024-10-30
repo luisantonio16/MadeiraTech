@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 
 
-/*Sub Categorias Css*/
-import '../Css/subCategorias.css'
+/*Sub Categorias css*/
+import '../css/subCategorias.css'
 
 /*Imagenes*/
 import heart from "../assets/norxSubCategoria/ayous/icono_organico.png"
@@ -18,7 +18,7 @@ import norx2 from '../assets/norxSubCategoria/ayous/longitud_tamaño.png'
 
 
 import { NavLink } from 'react-router-dom';
-import Footer from '../Layouts/Footer';
+import Footer from '../components/Footer';
 
 
 const IpeMaderasTropicales = () => {

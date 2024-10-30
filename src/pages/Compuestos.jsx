@@ -1,9 +1,9 @@
 import React, { useEffect } from 'react';
 import { NavLink } from 'react-router-dom';
-import Footer from '../Layouts/Footer';
+import Footer from '../components/Footer';
 
 /*css */
-import '../Css/compuestos.css'
+import '../css/compuestos.css'
 
 /*Imagenes */
 import compuestos from '../assets/compuestos/compuestos1.jpg';

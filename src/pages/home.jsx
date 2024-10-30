@@ -1,8 +1,8 @@
-import React, { useEffect } from "react";
-import SliderHeader from "./sliderHeader";
+import { useEffect } from "react";
 import { NavLink } from "react-router-dom";
-import HomeLumber from "./homeLumber";
-import "../Css/style.css";
+import SliderHeader from "../components/sliderHeader";
+import HomeLumber from "../components/homeLumber";
+import "../css/style.css";
 
 /*imagnes */
 import HomeImg from "../assets/home/logoHome.png";
@@ -12,7 +12,7 @@ import homeMadera from '../assets/home/homeMadera.png'
 import Plus from '../assets/home/plus.png'
 
 /*Componetes */
-import Footer from "../Layouts/Footer";
+import Footer from "../components/Footer";
 
 /*ANIMACIONES */
 import AOS from 'aos';

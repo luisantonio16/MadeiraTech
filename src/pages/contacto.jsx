@@ -1,9 +1,9 @@
 import React from 'react';
-import "../Css/contacto.css";
+import "../css/contacto.css";
 
 /*Imagenes*/
 import contactImg from '../assets/contact/contact.png'
-import Footer from '../Layouts/Footer';
+import Footer from '../components/Footer';
 
 const Contacto = () => {
     return (

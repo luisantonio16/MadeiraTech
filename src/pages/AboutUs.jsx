@@ -1,8 +1,8 @@
 import React, { useEffect } from 'react';
-import Footer from '../Layouts/Footer'
+import Footer from '../components/Footer'
 
-/*Css */
-import '../Css/about.css'
+/*css */
+import '../css/about.css'
 
 /*Imagenes */
 import imgCirculo from '../assets/about/circuloAbout.png'

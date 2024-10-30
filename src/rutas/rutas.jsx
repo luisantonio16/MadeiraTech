@@ -2,27 +2,25 @@ import { useEffect } from "react";
 import { BrowserRouter, Route, Routes, useLocation } from "react-router-dom";
 import { CSSTransition, TransitionGroup } from "react-transition-group";
 
-/* Components */
-import MenuProductos from "../components/menuProductos";
+/*Componentes*/
 import Header from "../components/header";
-
-/* Pages */
-import Home from "../pages/home";
-import Contacto from "../pages/contacto";
-import AboutUs from "../pages/AboutUs";
-import Productos from "../pages/Productos";
-import Compuestos from "../pages/Compuestos";
-import MaderasTropicales from "../pages/MaderasTropicales";
-import ThermowoodRadiata from "../pages/ThermowoodRadiata";
-import Norx from "../pages/Norx";
-import IpeMaderasTropicales from "../pages/IpeMaderasTropicales";
-import CumaruMaderasTropicales from "../pages/CumaruMaderasTropicales";
-import Ayous from "../pages/AyousThermowood";
-import Ash from "../pages/AshThermowood";
-import Pino from "../pages/PinoThermowood";
-import Radiata from "../pages/RadiataThermowood";
-import Catalogo from "../pages/Catalogo";
-import Projects from "../pages/Projects";
+import Home from "../components/home";
+import Contacto from "../components/contacto";
+import AboutUs from "../components/AboutUs";
+import MenuProductos from "../components/menuProductos";
+import Productos from "../components/Productos";
+import Compuestos from "../components/Compuestos";
+import MaderasTropicales from "../components/MaderasTropicales";
+import ThermowoodRadiata from "../components/ThermowoodRadiata";
+import Norx from "../components/Norx";
+import IpeMaderasTropicales from "../components/IpeMaderasTropicales";
+import CumaruMaderasTropicales from "../components/CumaruMaderasTropicales";
+import Ayous from "../components/AyousThermowood";
+import Ash from "../components/AshThermowood";
+import Pino from "../components/PinoThermowood";
+import Radiata from "../components/RadiataThermowood";
+import Catalogo from "../components/Catalogo";
+import Projects from "../components/Projects";
 
 // El componente que maneja las rutas y las animaciones, con useLocation dentro del contexto correcto
 const AppContent = () => {
@@ -82,7 +80,7 @@ const AppContent = () => {
   );
 };
 
-const RoutesWrapper = () => {
+const Rutas = () => {
   return (
     <BrowserRouter>
       <AppContent />
@@ -90,4 +88,4 @@ const RoutesWrapper = () => {
   );
 };
 
-export default RoutesWrapper;
+export default Rutas;

@@ -1,27 +1,27 @@
 import React, { useState } from 'react';
 
 
-/*Sub Categorias Css*/
-import '../Css/subCategorias.css'
+/*Sub Categorias css*/
+import '../css/subCategorias.css'
 
 /*Imagenes*/
-import heart from "../assets/norxSubCategoria/ayous/icono_organico.png"
-import heart1 from "../assets/norxSubCategoria/ayous/icono_mantenimiento.png"
-import heart2 from "../assets/norxSubCategoria/ayous/icono_humedad.png"
-import heart3 from "../assets/norxSubCategoria/ayous/icono_sostenible.png"
-import heart5 from "../assets/norxSubCategoria/ayous/ESTABILIDAD.png"
+import heart from "../assets/norxSubCategoria/Heart_Norx.png"
+import heart1 from "../assets/norxSubCategoria/virus_ipe.png"
+import heart2 from "../assets/norxSubCategoria/storm_ipe.png"
+import heart3 from "../assets/norxSubCategoria/lab_cumaru.png"
+import heart4 from "../assets/norxSubCategoria/fire_ipe.png"
 import ayousMadera from "../assets/norxSubCategoria/ayous/maderas_ayous.png"
 
 import arrow from '../assets/norxSubCategoria/arrow.png'
-import norx1 from '../assets/norxSubCategoria/ayous/tablilla.png'
-import norx2 from '../assets/norxSubCategoria/pino/longitudes_tamañoPino.png'
+import norx1 from '../assets/norxSubCategoria/etiquetas_cumaru_ipe.png'
+import norx2 from '../assets/norxSubCategoria/longituds_IPE_CUMARU.png'
 
 
 import { NavLink } from 'react-router-dom';
-import Footer from '../Layouts/Footer';
+import Footer from '../components/Footer';
 
 
-const PinoThermowood = () => {
+const IpeMaderasTropicales = () => {
     const [openIndex, setOpenIndex] = useState(null);
 
 
@@ -35,15 +35,15 @@ const PinoThermowood = () => {
         <div className="norx-subcategorias--container">
             <section className='sub-categorias--header'>
                 <section className='sub-categorias-titulo'>
-                    <div className='sub-categorias-imagen-pino'>
+                    <div className='sub-categorias-imagen-cumaru'>
                         {/* <img src={aboutimgTitulo} className='img-titulo' /> */}
                     </div>
                     <div className='sub-categorias--linea'></div>
 
                 </section>
                 <div className='sub-categorias--titulo'>
-                    <h2>PINO ESCANDINAVO</h2>
-                    <h3>Thermowood</h3>
+                    <h2>CUMARÚ</h2>
+                    <h3>Maderas Tropicales</h3>
                 </div>
             </section>
 
@@ -52,51 +52,47 @@ const PinoThermowood = () => {
         <section className='sub-categorias--informacion'>
             <div className="design-container">
                 <div >
-                    <img className='wood-image-Ayous' src={ayousMadera} alt="" />
+                  <img className='wood-image-ipe' src={ayousMadera} alt="" />
                 </div>
 
                 <div className="circle circle-left">
-                  
                     <div className='circle-imagenes'>
-                        <img src={heart} alt="" />
+                        <img src={heart4} alt="" />
                     </div>
-                    <p className='circle-texto-left'>100%  Orgánica</p>
+                    <p className='circle-texto-left'>Resistencia al fuego clase
+                                                A, comparado al acero y
+                                                hormigón.</p>
+                  
                 </div>
                 <div className="circle circle-right">
                     <div className='circle-imagenes'>
                         <img src={heart1} alt="" />
                     </div>
-                    <p>Minímo mantenimiento.</p>
+                    <p>Resistente a los insectos,
+                    moho y hongos.</p>
                 </div>
                 <div className="circle circle-top">
                     <div className='circle-imagenes'>
-                        <h2 className='circle-imagen-texto'>+ 25</h2>
+                        <img src={heart} alt="" />
                     </div>
-                    <p className='circle-texto-left'>Vida útil.</p>
-                    
+                    <p className='circle-texto-left'>Vida útil más de 25 años.</p>
                 </div>
                 <div className="circle circle-bottom-left">
-                   
+                 
                     <div className='circle-imagenes'>
                         <img src={heart3} alt="" />
                     </div>
-                    <p>Sostenible</p>
+                    <p>Resistente a la prutrefacción.</p>
                 </div>
                 <div className="circle circle-bottom-right">
                     <div className='circle-imagenes'>
-                        <img src={heart5} alt="" />
-                    </div>
-                    <p>Alta estabilidad.</p>
-                </div>
-                <div className="circle circle-bottom">
-                    <div className='circle-imagenes'>
                         <img src={heart2} alt="" />
                     </div>
-                    <p>Rango de humedad</p>
+                    <p>Resistente alos cambios
+                    climaticos.</p>
                 </div>
             </div>
         </section>
-        
         <section className='sub-categorias-contact'>
             <NavLink to='/contacto' className="contact-button">Contáctanos</NavLink>
         </section>
@@ -131,8 +127,8 @@ const PinoThermowood = () => {
                     </div>
                 </div>
                 <div className="sub-categorias-texto">
-                    <h2>Características Principales</h2>
-                    <p>El Pino Escandinavo es una madera térmicamente modificada que presenta un color beige claro y una textura en nudos. Es una excelente opción para áreas con alta humedad, ya que es resistente a la putrefacción y al deterioro. Perfecta para soluciones contemporáneas o rústicas que prefieren el aspecto natural de la madera. Excelente para revestimientos de paredes y techos.</p>
+                    <h2>Caracteristicas Principales</h2>
+                    <p>Se considera una madera de alta durabilidad, clasificada como muy resistente a la intemperie y a los ataques de insectos y hongos, lo que la hace ideal para uso exterior, como terrazas y mobiliario de jardín.</p>
 
                 </div>
 
@@ -147,4 +143,4 @@ const PinoThermowood = () => {
     );
 }
 
-export default PinoThermowood;
+export default IpeMaderasTropicales;

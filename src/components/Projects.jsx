@@ -1,6 +1,6 @@
 import { NavLink } from "react-router-dom";
 import "../Css/Projects.css";
-import Footer from "../Layouts/Footer";
+import Footer from "./Footer";
 import VideoEmbed from "./VideoEmbed";
 
 const Projects = () => {

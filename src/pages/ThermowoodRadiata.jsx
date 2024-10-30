@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import { NavLink } from 'react-router-dom';
 
 /*Componenetes */
-import Footer from '../Layouts/Footer';
+import Footer from '../components/Footer';
 
 
 /*Imagenes */

@@ -1,25 +1,28 @@
 import React, { useState } from 'react';
 
-/*Sub Categorias Css*/
-import '../Css/subCategorias.css'
+/*Sub Categorias css*/
+import '../css/subCategorias.css'
 
 /*Imagenes*/
-import heart1 from "../assets/norxSubCategoria/ASH/icono_durabilidad.png"
-import heart2 from "../assets/norxSubCategoria/ASH/icono_plaga.png"
-import heart3 from "../assets/norxSubCategoria/ASH/icono_bajo_niveles _humedad.png"
-import ashMadera from "../assets/norxSubCategoria/ASH/madera_Ash.png"
+import heart from "../assets/norxSubCategoria/Heart_Norx.png"
+import heart1 from "../assets/norxSubCategoria/settings_Norx.png"
+import heart2 from "../assets/norxSubCategoria/recycle_norx.png"
+import heart3 from "../assets/norxSubCategoria/Scales_norx.png"
+import ashMadera from "../assets/norxSubCategoria/maderaNorx.png"
+
 import arrow from '../assets/norxSubCategoria/arrow.png'
-import norx1 from '../assets/norxSubCategoria/ayous/tablilla.png'
-import norx2 from '../assets/norxSubCategoria/ASH/longitudes_tamaños.png'
+import norx1 from '../assets/norxSubCategoria/revestimientos.png'
+import norx2 from '../assets/norxSubCategoria/colores.png'
 
 
 import { NavLink } from 'react-router-dom';
-import Footer from '../Layouts/Footer';
+import Footer from '../components/Footer';
 
 
 const Norx = () => {
 
     const [openIndex, setOpenIndex] = useState(null);
+
 
     // Función para alternar el estado del acordeón
     const toggleAcordeon = (index) => {
@@ -31,15 +34,15 @@ const Norx = () => {
             <div className="norx-subcategorias--container">
                 <section className='sub-categorias--header'>
                     <section className='sub-categorias-titulo'>
-                        <div className='sub-categorias-imagen-ash'>
+                        <div className='sub-categorias-imagen'>
                             {/* <img src={aboutimgTitulo} className='img-titulo' /> */}
                         </div>
                         <div className='sub-categorias--linea'></div>
 
                     </section>
                     <div className='sub-categorias--titulo'>
-                        <h2>Ash</h2>
-                        <h3>Thermowood</h3>
+                        <h2 >NORX</h2>
+                        <h3>Compuestos</h3>
                     </div>
                 </section>
 
@@ -48,34 +51,33 @@ const Norx = () => {
             <section className='sub-categorias--informacion'>
                 <div className="design-container">
                     <div >
-                      <img className="wood-image-Ash" src={ashMadera}  />
+                       <img className="wood-image-Ash" src={ashMadera}  />
                     </div>
 
                     <div className="circle circle-left">
-                      
                         <div className='circle-imagenes'>
-                           <h2 className='circle-imagen-texto'>+ 25</h2>
+                            <img src={heart} alt="" />
                         </div>
-                        <p className='circle-texto-left'>Vida útil.</p>
+                        <p className='circle-texto-left'>Vida útil más de 50 años.</p>
                     </div>
                     <div className="circle circle-right">
                         <div className='circle-imagenes'>
                             <img src={heart2} alt="" />
                         </div>
-                        <p>Resistente a las plagas.</p>
+                        <p>95% material reciclado.</p>
                     </div>
                     <div className="circle circle-bottom-left">
                        
                         <div className='circle-imagenes'>
                             <img src={heart1} alt="" />
                         </div>
-                        <p>Durabilidad.</p>
+                        <p>Mínimo Mantenimiento.</p>
                     </div>
                     <div className="circle circle-bottom-right">
                         <div className='circle-imagenes'>
                             <img src={heart3} alt="" />
                         </div>
-                        <p>Bajos Niveles de Humedad.</p>
+                        <p>Alta estabilidad.</p>
                     </div>
                 </div>
             </section>
@@ -114,7 +116,15 @@ const Norx = () => {
                     </div>
                     <div className="sub-categorias-texto">
                         <h2>Caracteristicas Principales</h2>
-                        <p>El arce ceniza (también conocido como arce blanco, arce de ceniza o ash tree en inglés) es un árbol perteneciente al género Fraxinus, que es parte de la familia de las oleáceas. Pueden alcanzar entre 15 a 30 metros de altura. Thermowood Ash es un material esencial en la carpintería, gracias a su increíble durabilidad. El fresno termotratado es una madera dura con un alto número de anillos de crecimiento y presenta una apariencia estética con su textura ondulada y fina, lo que la hace ideal para muebles, pisos y elementos de construcción.</p>
+                        <p>Tienen el aspecto y el tacto de la madera
+                            tradicional, pero con la resistencia, longevidad y
+                            sostenibilidad adicionales de un material
+                            compuesto. Material resistente al moho, manchas,
+                            rayones, podredumbre, grietas y mucho.
+                            Nuestra plataforma compuesta es lo suficientemente
+                            fuerte como para soportar todo lo que
+                            su vida al aire libre le depare. Estos es tan compuestos
+                            de 95% de material reciclado.</p>
 
                     </div>
 

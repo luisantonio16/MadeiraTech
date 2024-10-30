@@ -1,27 +1,26 @@
 import React, { useState } from 'react';
 
 
-/*Sub Categorias Css*/
-import '../Css/subCategorias.css'
+/*Sub Categorias css*/
+import '../css/subCategorias.css'
 
 /*Imagenes*/
-import heart from "../assets/norxSubCategoria/Heart_Norx.png"
-import heart1 from "../assets/norxSubCategoria/virus_ipe.png"
-import heart2 from "../assets/norxSubCategoria/storm_ipe.png"
-import heart3 from "../assets/norxSubCategoria/lab_cumaru.png"
-import heart4 from "../assets/norxSubCategoria/fire_ipe.png"
-import ayousMadera from "../assets/norxSubCategoria/ayous/maderas_ayous.png"
+import heart from "../assets/norxSubCategoria/ayous/icono_organico.png"
+import heart1 from "../assets/norxSubCategoria/ayous/icono_mantenimiento.png"
+import heart2 from "../assets/norxSubCategoria/ayous/icono_humedad.png"
+import heart3 from "../assets/norxSubCategoria/ayous/icono_sostenible.png"
+import heart5 from "../assets/norxSubCategoria/ayous/ESTABILIDAD.png"
+import ayousMadera from "../assets/norxSubCategoria/radiata/maderaRadiata.png"
 
 import arrow from '../assets/norxSubCategoria/arrow.png'
-import norx1 from '../assets/norxSubCategoria/etiquetas_cumaru_ipe.png'
-import norx2 from '../assets/norxSubCategoria/longituds_IPE_CUMARU.png'
+import norx1 from '../assets/norxSubCategoria/ayous/tablilla.png'
 
 
 import { NavLink } from 'react-router-dom';
-import Footer from '../Layouts/Footer';
+import Footer from '../components/Footer';
 
 
-const IpeMaderasTropicales = () => {
+const RadiataThermowood = () => {
     const [openIndex, setOpenIndex] = useState(null);
 
 
@@ -35,15 +34,15 @@ const IpeMaderasTropicales = () => {
         <div className="norx-subcategorias--container">
             <section className='sub-categorias--header'>
                 <section className='sub-categorias-titulo'>
-                    <div className='sub-categorias-imagen-cumaru'>
+                    <div className='sub-categorias-imagen-pino'>
                         {/* <img src={aboutimgTitulo} className='img-titulo' /> */}
                     </div>
                     <div className='sub-categorias--linea'></div>
 
                 </section>
                 <div className='sub-categorias--titulo'>
-                    <h2>CUMARÚ</h2>
-                    <h3>Maderas Tropicales</h3>
+                    <h2>Radiata</h2>
+                    <h3>Thermowood</h3>
                 </div>
             </section>
 
@@ -52,44 +51,47 @@ const IpeMaderasTropicales = () => {
         <section className='sub-categorias--informacion'>
             <div className="design-container">
                 <div >
-                  <img className='wood-image-ipe' src={ayousMadera} alt="" />
+                    <img className='wood-image-Ayous' src={ayousMadera} alt="" />
                 </div>
 
                 <div className="circle circle-left">
-                    <div className='circle-imagenes'>
-                        <img src={heart4} alt="" />
-                    </div>
-                    <p className='circle-texto-left'>Resistencia al fuego clase
-                                                A, comparado al acero y
-                                                hormigón.</p>
                   
+                    <div className='circle-imagenes'>
+                        <img src={heart} alt="" />
+                    </div>
+                    <p className='circle-texto-left'>100% Orgánica</p>
                 </div>
                 <div className="circle circle-right">
                     <div className='circle-imagenes'>
                         <img src={heart1} alt="" />
                     </div>
-                    <p>Resistente a los insectos,
-                    moho y hongos.</p>
+                    <p>Minímo mantenimiento.</p>
                 </div>
                 <div className="circle circle-top">
                     <div className='circle-imagenes'>
-                        <img src={heart} alt="" />
+                        <h2 className='circle-imagen-texto'>+ 25</h2>
                     </div>
-                    <p className='circle-texto-left'>Vida útil más de 25 años.</p>
+                    <p className='circle-texto-left'>Vida útil.</p>
+          
                 </div>
                 <div className="circle circle-bottom-left">
-                 
+                   
                     <div className='circle-imagenes'>
                         <img src={heart3} alt="" />
                     </div>
-                    <p>Resistente a la prutrefacción.</p>
+                    <p>Sostenible</p>
                 </div>
                 <div className="circle circle-bottom-right">
                     <div className='circle-imagenes'>
+                        <img src={heart5} alt="" />
+                    </div>
+                    <p>Alta estabilidad.</p>
+                </div>
+                <div className="circle circle-bottom">
+                    <div className='circle-imagenes'>
                         <img src={heart2} alt="" />
                     </div>
-                    <p>Resistente alos cambios
-                    climaticos.</p>
+                    <p>Rango de humedad</p>
                 </div>
             </div>
         </section>
@@ -112,23 +114,11 @@ const IpeMaderasTropicales = () => {
                                 </div>
                             </div>
                         </div>
-
-                        <div className="acordeon-items">
-                            <div className="acordeon-titulos" onClick={() => toggleAcordeon(1)}>
-                                <h2>Longitudes y Tamaños</h2>
-                                <img src={arrow} alt="" />
-                            </div>
-                            <div className={`acordeon-informacion ${openIndex === 1 ? 'open' : ''}`}>
-                                <div className='acordeon-info'>
-                                    <img src={norx2} alt="" />
-                                </div>
-                            </div>
-                        </div>
                     </div>
                 </div>
                 <div className="sub-categorias-texto">
-                    <h2>Caracteristicas Principales</h2>
-                    <p>Se considera una madera de alta durabilidad, clasificada como muy resistente a la intemperie y a los ataques de insectos y hongos, lo que la hace ideal para uso exterior, como terrazas y mobiliario de jardín.</p>
+                    <h2>Características Principales</h2>
+                    <p>La madera termomodificada Radiata es lisa y tiene una apariencia impecable. Esta madera es sin nudos y visualmente impactante, lo que la convierte en una excelente opción para aplicaciones tanto en interiores como en exteriores. Su acabado refinado agrega un toque de elegancia a cualquier proyecto, desde ambientes exteriores hasta revestimientos de paredes y techos interiores. Este producto de vanguardia combina la belleza natural de la madera con tecnología avanzada, ofreciendo una durabilidad inigualable, resistencia a las inclemencias del tiempo y protección contra termitas.</p>
 
                 </div>
 
@@ -143,4 +133,4 @@ const IpeMaderasTropicales = () => {
     );
 }
 
-export default IpeMaderasTropicales;
+export default RadiataThermowood;
