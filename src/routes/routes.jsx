@@ -52,14 +52,13 @@ const AppContent = () => {
               <Route path="/about" element={<AboutUs />} />
               <Route path="/productos" element={<Productos />} />
               <Route path="/proyectos" element={<Projects />} />
-              <Route path="/catalogo" element={<Productos />} /> \
               <Route path="/compuestos" element={<Compuestos />} />
               <Route
                 path="/maderas-tropicales"
                 element={<MaderasTropicales />}
               />
               <Route path="/thermowood" element={<ThermowoodRadiata />} />
-              /*sub categorias */
+              {/* sub categorias */}
               <Route path="/compuestos/norx" element={<Norx />} />
               <Route
                 path="/maderas-tropicales/ipe"
@@ -81,7 +80,7 @@ const AppContent = () => {
   );
 };
 
-const Rutas = () => {
+const RoutesWrapper = () => {
   return (
     <BrowserRouter>
       <AppContent />
@@ -89,4 +88,4 @@ const Rutas = () => {
   );
 };
 
-export default Rutas;
+export default RoutesWrapper;

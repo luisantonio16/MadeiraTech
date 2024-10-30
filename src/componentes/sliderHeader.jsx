@@ -104,8 +104,8 @@ const SliderHeader = () => {
                             Sobre Nosotros
                         </h2>
                         <p className='slider-parrafo'>
-                            Somos los principales distribuidores de maderas decorativas
-                            de lujo en el mercado dominicano.
+                        Somos los principales distribuidores de maderas decorativas
+                        en el mercado dominicano.
                         </p>
                         <NavLink to='/about' className='slider-btn' >
                             Leer más

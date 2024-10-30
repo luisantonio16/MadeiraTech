@@ -60,27 +60,29 @@ const Home = () => {
       </section>
 
       <section className="home-about" >
-        <div className="home-about-container--imagen">
-          <NavLink to='/maderas-tropicales' className="imagen-container maderas">
-            <div >
-              <h2 className="imagen-titulo">Maderas Tropicales</h2>
-              <div className="imagen-texto">
+        <div className="flex flex-col md:flex-row md:h-[760px]">
+          <NavLink to='/maderas-tropicales' className="w-full min-h-72 maderas">
+            <div className="gap-6 md:gap-0 h-full flex flex-col justify-between items-center py-12 md:py-24">
+              <div className="text-center">
+                <h2 className="text-white text-2xl font-bold">Maderas Tropicales</h2>
+              </div>
+              <div className="flex justify-center items-center text-white bg-[#00000070] w-full h-32 p-6">
                 <p>
                   Los Proyectos construidos con Maderas Tropicales se destacan
                   por su calidez, elegancia y frescura inigualable.
                 </p>
               </div>
             </div>
-
           </NavLink>
 
-          <NavLink to='/thermowood' className="imagen-container thermowood">
-            <div >
-
-              <h2 className="imagen-titulo">Thermowood</h2>
-              <h4>Powered by Novawood Technologies</h4>
-              <span className="imagen-subtitulo">Thermo-Modified</span>
-              <div className="imagen-texto">
+          <NavLink to='/thermowood' className="w-full min-h-72 thermowood">
+            <div className="gap-6 md:gap-0 h-full flex flex-col justify-between items-center py-12 md:py-24">
+              <div className="text-center">
+                <h2 className="text-white text-2xl font-bold rights-icon">Thermowood</h2>
+                <h4>Powered by Novawood Technologies</h4>
+                <span className="imagen-subtitulo">Thermo-Modified</span>
+              </div>
+              <div className="flex justify-center items-center text-white bg-[#00000070] w-full h-32 p-6">
                 <p>
                   Diseñado para ofrecer durabilidad,
                   belleza atemporal y sostenibilidad,
@@ -89,15 +91,15 @@ const Home = () => {
                   paredes y techos
                 </p>
               </div>
-
             </div>
           </NavLink>
-          <NavLink to='/compuestos' className="imagen-container compuesto">
 
-
-            <div >
-              <h2 className="imagen-titulo">Compuestos</h2>
-              <div className="imagen-texto">
+          <NavLink to='/compuestos' className="w-full min-h-72 compuesto">
+            <div className="gap-6 md:gap-0 h-full flex flex-col justify-between items-center py-12 md:py-24">
+              <div className="text-center">
+                <h2 className="text-white text-2xl font-bold">Compuestos</h2>
+              </div>
+              <div className="flex justify-center items-center text-white bg-[#00000070] w-full h-32 p-6">
                 <p>
                   Máxima durabilidad y resistencia. Nuestros
                   Compuestos NORX son altamente

@@ -52,7 +52,7 @@ const Contacto = () => {
                                 <option value="otherOption">Región Norte</option>
                                 <option value="otherOption">Región Este</option>
                                 <option value="otherOption">Región Sur</option>
-                                <option value="otherOption">Districto Nacional</option>
+                                <option value="otherOption">Distrito Nacional</option>
                                 <option value="otherOption">Santo Domingo</option>
                                 <option value="otherOption">Internacional</option>
                                 <option value="otherOption">Otro</option>
