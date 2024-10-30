@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 import { NavLink } from 'react-router-dom';
 
 /*Componenetes */
@@ -6,7 +6,7 @@ import Footer from '../components/Footer';
 
 
 /*Imagenes */
-import thermowoodRadiata from '../assets/thermowood/foto.png';
+// import thermowoodRadiataImg from '../assets/thermowood/foto.png';
 import thermowood from '../assets/thermowood/ayou.jpg'
 import thermowood1 from '../assets/thermowood/pino.png'
 import thermowood2 from '../assets/thermowood/radiata.png'
@@ -32,7 +32,7 @@ const ThermowoodRadiata = () => {
                 <section className='about-us'>
                     <section className='about-container-titulo'>
                         <div className='about-us-imagen--thermowood'>
-                            {/* <img src={thermowoodRadiata} className='img-titulo' /> */}
+                            {/* <img src={thermowoodRadiataImg} className='img-titulo' /> */}
                         </div>
                         <div className='about-us--linea'></div>
 
@@ -141,7 +141,7 @@ const ThermowoodRadiata = () => {
                                     <p>
                                         El arce ceniza (también conocido
                                         como arce blanco, arce de ceniza
-                                        o ash tree en ingles) es un árbol
+                                        o ash tree en inglés) es un árbol
                                         perteneciente al género
                                         Fraxinus, que es parte de la
                                         familia de las oleáceas.
