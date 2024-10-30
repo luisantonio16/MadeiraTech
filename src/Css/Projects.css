@@ -1,0 +1,82 @@
+#projects-page {
+  display: block;
+  width: 100%;
+  min-height: 100vh;
+
+  & .projects-page-header {
+    height: 15rem;
+    background-image: url("../assets/compuestosPrincipal.jpg");
+    background-color: rgba(
+      0,
+      0,
+      0,
+      0.4
+    ); /* Cambia el valor de opacidad para ajustar la oscuridad */
+    background-blend-mode: multiply; /* Mezcla la capa de color con la imagen */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    & h2 {
+      color: white;
+      font-size: 2.5rem;
+      font-weight: normal;
+    }
+  }
+
+  & .projects-page-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    padding: 2rem 0;
+
+    & .video-container {
+      margin: 1rem auto;
+    }
+
+    & > h3 {
+      font-size: 2.5rem;
+      font-weight: 400;
+      color: var(--color-Primary);
+    }
+  }
+
+  & > .custom-border-bottom {
+    border-bottom: 4rem solid var(--color-Primary);
+  }
+
+  & .learn-more-btn {
+    cursor: pointer;
+    display: block;
+    margin: 1rem auto;
+    background-color: var(--color-Primary);
+    width: 250px;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    border-radius: 5px;
+    transition: all 3ms ease-in-out;
+
+    &:hover {
+      background-color: var(--color-secundary);
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  #projects-page {
+    & .projects-page-section {
+      & > h3 {
+        font-size: 1.5rem;
+        padding: 0 1rem;
+        text-align: center;
+      }
+    }
+  }
+}
