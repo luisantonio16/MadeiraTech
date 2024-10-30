@@ -78,7 +78,7 @@ const Home = () => {
           <NavLink to='/thermowood' className="w-full min-h-72 thermowood">
             <div className="gap-6 md:gap-0 h-full flex flex-col justify-between items-center py-12 md:py-24">
               <div className="text-center">
-                <h2 className="text-white text-2xl font-bold rights-icon">Thermowood</h2>
+                <h2 className="text-white text-2xl font-bold">Thermowood <sup>&reg;</sup></h2>
                 <h4>Powered by Novawood Technologies</h4>
                 <span className="imagen-subtitulo">Thermo-Modified</span>
               </div>

@@ -174,15 +174,6 @@
     text-shadow: 5px 5px 5px var(--color-Primary);
 }
 
-.rights-icon::after {
-    content:  "\00AE";
-    position: absolute;
-    top: .1rem;
-    right: -0.8rem;
-    z-index: 1;
-    font-size: 1rem;
-}
-
 .thermowood h4 {
     text-align: center;
     color: white;
