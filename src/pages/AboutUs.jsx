@@ -139,10 +139,7 @@ const AboutUs = () => {
                             </div>
                             <div className="about-card-info">
                                 <h2>Compromiso</h2>
-                                <p> Compromiso inquebrantable
-                                    con la excelencia en todos
-                                    nuestros productos y servicios.</p>
-
+                                <p>Dedicación inquebrantable a la excelencia en todos nuestros productos y servicios.</p>
                             </div>
                         </div>
 
@@ -154,11 +151,8 @@ const AboutUs = () => {
                                 <img src={cardImagen2} className='about-card--img' />
                             </div>
                             <div className="about-card-info">
-                                <h2>Resposabilidad</h2>
-                                <p> Responsabilidad ambiental en la selección y manejo
-                                    de nuestros recursos, promoviendo prácticas sostenibles en
-                                    toda la cadena de suministro.</p>
-
+                                <h2>Responsabilidad</h2>
+                                <p>Conciencia ambiental en la selección y manejo de nuestros recursos, promoviendo prácticas sostenibles en toda la cadena de suministro.</p>
                             </div>
                         </div>
                         <div className="about-card" data-aos="fade-up"
@@ -168,10 +162,7 @@ const AboutUs = () => {
                             </div>
                             <div className="about-card-info">
                                 <h2>Integridad</h2>
-                                <p> Conducta
-                                    ética y transparente en todas nuestras
-                                    operaciones y relaciones comerciales.</p>
-
+                                <p>Conducta ética y transparente en todas nuestras operaciones y relaciones comerciales.</p>
                             </div>
                         </div>
 
