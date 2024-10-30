@@ -23,6 +23,7 @@ import Pino from "../pages/PinoThermowood";
 import Radiata from "../pages/RadiataThermowood";
 import Catalogo from "../pages/Catalogo";
 import Projects from "../pages/Projects";
+import NotFound from "../pages/NotFound";
 
 // El componente que maneja las rutas y las animaciones, con useLocation dentro del contexto correcto
 const AppContent = () => {
@@ -74,6 +75,8 @@ const AppContent = () => {
               <Route path="/thermowood/ash" element={<Ash />} />
               <Route path="/thermowood/pino" element={<Pino />} />
               <Route path="/thermowood/radiata" element={<Radiata />} />
+
+              <Route path="*" element={<NotFound />} />
             </Routes>
           </CSSTransition>
         </TransitionGroup>
