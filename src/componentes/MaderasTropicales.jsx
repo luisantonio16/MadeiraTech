@@ -7,7 +7,6 @@ import Footer from '../Layouts/Footer';
 import '../Css/compuestos.css'
 
 /*Imagenes */
-import maderasTropicales from '../assets/maderasTropicales/maderaTropical.png';
 import madera from '../assets/maderasTropicales/fotoCumaru.png'
 import madera1 from '../assets/maderasTropicales/fotoIpe.png'
 

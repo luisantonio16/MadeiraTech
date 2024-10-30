@@ -19,6 +19,7 @@ import Ayous from '../componentes/AyousThermowood';
 import Ash from '../componentes/AshThermowood';
 import Pino from '../componentes/PinoThermowood';
 import Radiata from '../componentes/RadiataThermowood';
+import Catalogo from '../componentes/Catalogo';
 
 
 
@@ -48,6 +49,7 @@ const AppContent = () => {
               <Routes location={location}>
                     <Route path='/' element={<Home />} />
                     <Route path='/inicio' element={<Home />} />  
+                    <Route path='/catalogo' element={<Catalogo />} />  
                     <Route path='/contacto' element={<Contacto />} />  
                     <Route path='/about' element={<AboutUs />} />  
                     <Route path='/productos' element={<Productos />} /> 

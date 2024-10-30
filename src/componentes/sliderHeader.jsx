@@ -23,13 +23,13 @@ const SliderHeader = () => {
                 pagination={{
                     dynamicBullets: true,
                 }}
-                autoplay={{
-                    delay: 3000, // 3 segundos
-                    disableOnInteraction: false, // Evita que se detenga al interactuar con él
-                }}
+                // autoplay={{
+                //     delay: 3000, // 3 segundos
+                //     disableOnInteraction: false, // Evita que se detenga al interactuar con él
+                // }}
                 speed={2000}
                 modules={[Pagination, Autoplay]}
-                className="mySwiper imagen-container--slider"
+                className="imagen-container--slider"
             >
                 <SwiperSlide className='slider-container'>
                     <div className='slider-texto'>

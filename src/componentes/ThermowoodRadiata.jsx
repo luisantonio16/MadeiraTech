@@ -7,7 +7,7 @@ import Footer from '../Layouts/Footer';
 
 /*Imagenes */
 import thermowoodRadiata from '../assets/thermowood/foto.png';
-import thermowood from '../assets/thermowood/ayou.png'
+import thermowood from '../assets/thermowood/ayou.jpg'
 import thermowood1 from '../assets/thermowood/pino.png'
 import thermowood2 from '../assets/thermowood/radiata.png'
 import thermowood3 from '../assets/thermowood/ash.png'

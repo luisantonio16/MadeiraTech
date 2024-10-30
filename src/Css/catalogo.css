@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Poppins:wght@100;200;300;400;500;600;700;800&family=Roboto:wght@100;300;400;500;700&family=Sassy+Frass&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    text-decoration: none;
+}
+
+:root {
+    --color-Primary: #375b7d;
+    --color-secundary: #9c5e35;
+    --color-parrafo: #636161;
+}
+
+
+.catalogo{
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+
+.catalogo-container{
+    display: block;
+    margin: 100px auto;
+    width: 790px;
+    height: 840px;
+    padding: 40px;
+    overflow: hidden;
+}
+.catalogo-slider{
+    display: block;
+    margin: auto;
+    width: 90%;
+    height: 80%;  
+}
+.catalogo-imagenes{
+    border-radius: 18px;
+    object-fit: cover;
+    width: 85%;
+    height: 100%;
+    box-shadow: 0px 1px 10px 2px #000000;
+}
+
+/*swiper catalogo*/
+
+.mySwiper{
+    display: block;
+    padding: 10px;
+}
+.swiper-slide 
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  @media (max-width: 768px){
+
+    .catalogo-container{
+        display: block;
+        margin: 100px auto;
+        width: 400px;
+        height: 600px;
+        padding: 20px;
+        overflow: hidden;
+    }
+    .catalogo-slider{
+        display: block;
+        margin: auto;
+        width: 90%;
+        height: 80%;  
+    }
+    .catalogo-imagenes{
+        border-radius: 18px;
+        object-fit: cover;
+        width: 85%;
+        height: 100%;
+        box-shadow: 0px 1px 10px 2px #000000;
+    }
+  }

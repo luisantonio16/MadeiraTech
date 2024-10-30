@@ -117,6 +117,7 @@
     height: 70px;
     background-color: var(--color-Primary);
 }
+
 .about-imagenes{
     position: relative;
     display: flex;
@@ -322,4 +323,99 @@
  }
  .about-contact--btn:hover{
     background-color: var(--color-secundary);
+ }
+
+
+
+ @media (max-width: 790px) {
+
+    .about-info-imagenes{
+        display: none;
+    }
+
+    /**/
+
+.mision{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    padding: 10px;
+    margin: 30px 0;
+    height:auto;
+    border: 1px solid var(--color-Primary);
+    border-radius: 10px;
+
+}
+.mision-info{
+    display: block;
+    margin: auto;
+    width: 80%;
+}
+.mision-info h2{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+  color: var(--color-Primary);
+  margin-bottom: 10px ;
+}
+.mision-info p{
+    font-size: 20px;
+    font-weight: 300;
+  color: var(--color-parrafo);
+  line-height: 1.5;
+  text-align: justify;
+
+}
+.mision-imagenes{
+    position: relative;
+    z-index: 4;
+}
+.mision-imagenes::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: -0;
+    width: 0;
+    height: 0;
+    border: 0px solid var(--color-Primary);
+    z-index: 1;
+    border-radius: 5px;
+}
+
+.mision-img{
+    position: relative;
+    display: block;
+    margin:10px auto;
+    max-width: 300px;
+    height: 300px;
+
+}
+.vision-img{
+    position: relative;
+    display: block;
+    margin:10px auto;
+    max-width: 300px;
+    height: 300px;
+    
+}
+/**/
+
+.about-valores{
+    display: none;
+    
+}
+.cards{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column; 
+}
+
+.about-titulo h2{
+    text-align: center;
+    color: white;
+   font-size: 38px;
+   font-weight: 600;
+   text-shadow: 5px 5px 5px var(--color-Primary);
+}
+
  }

@@ -1,0 +1,46 @@
+[
+  {
+    "id": "image1",
+    "url": "../src/assets/catalogo/1.png"
+  },
+  {
+    "id": "image2",
+    "url": "../src/assets/catalogo/2.jpg"
+  },
+  {
+    "id": "image3",
+    "url": "../src/assets/catalogo/3.jpg"
+  },
+  {
+    "id": "image4",
+     "url": "../src/assets/catalogo/4.jpg"
+  },
+{
+    "id": "image5",
+     "url": "../src/assets/catalogo/5.jpg"
+  },
+{
+    "id": "image6",
+    "url": "../src/assets/catalogo/6.jpg"
+  },
+{
+    "id": "image7",
+ "url": "../src/assets/catalogo/7.jpg"
+  },
+{
+    "id": "image8",
+   "url": "../src/assets/catalogo/8.jpg"
+  },
+{
+    "id": "image9",
+   "url": "../src/assets/catalogo/9.jpg"
+  },
+  {
+    "id": "image10",
+   "url": "../src/assets/catalogo/10.jpg"
+  },{
+    "id": "image11",
+   "url": "../src/assets/catalogo/11.jpg"
+  }
+
+]

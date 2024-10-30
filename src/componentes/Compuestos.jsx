@@ -6,7 +6,6 @@ import Footer from '../Layouts/Footer';
 import '../Css/compuestos.css'
 
 /*Imagenes */
-import headerCompuesto from '../assets/compuestos/compuestoPrincipal.jpg';
 import compuestos from '../assets/compuestos/compuestos1.jpg';
 
 

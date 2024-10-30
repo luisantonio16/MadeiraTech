@@ -93,6 +93,7 @@ justify-content: space-around;
   margin-right: 100px;
 
 }
+
 .link-plus{
   width: 22px;
   margin-left: 10px;
@@ -253,6 +254,7 @@ justify-content: space-around;
   
   
 }
+
 .header-subcategorias--textos{
   display: block;
   width: 60%;
@@ -349,9 +351,6 @@ justify-content: space-around;
   background-color: var(--color-secundary);
 }
 
-
-
-
 .about-us-imagen--thermowood{
   display: block;
   position: relative;
@@ -394,3 +393,118 @@ justify-content: space-around;
 }
 
 
+@media (max-width: 790px) {
+  .header-subcategorias--textos{
+    display: block;
+    width: 100%;
+    max-width: 700px;
+  }
+  .header-subcategorias--textos p{
+    display: block;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    color: var(--color-Primary);
+    
+  }
+  
+/*Sub categorias*/
+.subcategorias{
+  display: block;
+  width: 100%;
+  padding: 60px 0;
+  margin: 40px 0;
+}
+.subcategorias-container{
+  display: block;
+  position: relative;
+}
+.subcategorias-informaciones{
+  flex-direction: column;
+  margin:100px auto;
+  width: 90%;
+  max-width: 900px;
+}
+
+.subcategoria-imagenes::after{
+  content: "";
+  position: absolute;
+  top: 50%;
+  right:  50% ;
+  transform: translate(58%, -39%);
+  width: 0;
+  height: 0;
+  border: 0px solid var(--color-Primary);
+  z-index: 1;
+  border-radius: 5px;
+}
+.subcategoria-imagen{
+  position: relative;
+  display: block;
+  max-width: 380px;
+  border-radius: 10px;
+  z-index: 3;
+  box-shadow:  0 0 5px rgba(0, 0, 0, 0.801);
+}
+
+.subcategorias-titulo{
+  text-align: center;
+  font-size: 40px;
+  font-weight: 400;
+  color: var(--color-Primary);
+  display: block;
+  margin: 10px 0;
+}
+.subcategorias-texto{
+  display: block;
+  width: 90%;
+}
+.subcategorias-texto--info p{
+  font-size: 20px;
+  font-weight: 300;
+   text-align: justify;
+   color: rgb(68, 66, 66);
+}
+
+.subcategoria-btn{
+  display: block;
+  margin: 18px auto;
+  width: 150px;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  background-color: var(--color-Primary);
+  border-radius: 5px;
+  transition: background-color 10s easeOut 0s;
+
+}
+.subcategoria-btn:hover{
+  background-color: var(--color-secundary);
+}
+
+
+.menu-Productos{
+  flex-direction: column;
+  margin: auto;
+  width: 100%;
+}
+.menu-productos--link{
+  color: #fff;
+  font-size: 16px;
+  font-weight: 300;
+  margin:10px 0;
+
+}
+.active-link--producto{
+  display: flex;
+  font-weight: 700;
+  color: var(--color-secundary);
+}
+.link-plus{
+  display: block;
+  width: 22px;
+  margin-left: 12px;
+}
+
+
+}

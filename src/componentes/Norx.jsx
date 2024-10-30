@@ -8,7 +8,7 @@ import heart from "../assets/norxSubCategoria/Heart_Norx.png"
 import heart1 from "../assets/norxSubCategoria/settings_Norx.png"
 import heart2 from "../assets/norxSubCategoria/recycle_norx.png"
 import heart3 from "../assets/norxSubCategoria/Scales_norx.png"
-import ashMadera from "../assets/norxSubCategoria/ASH/madera_Ash.png"
+import ashMadera from "../assets/norxSubCategoria/maderaNorx.png"
 
 import arrow from '../assets/norxSubCategoria/arrow.png'
 import norx1 from '../assets/norxSubCategoria/revestimientos.png'

@@ -65,7 +65,7 @@ const IpeMaderasTropicales = () => {
                     <div className='circle-imagenes'>
                         <img src={heart1} alt="" />
                     </div>
-                    <p>Minímo rendimiento.</p>
+                    <p>Minímo mantenimiento.</p>
                 </div>
                 <div className="circle circle-top">
                     <div className='circle-imagenes'>
