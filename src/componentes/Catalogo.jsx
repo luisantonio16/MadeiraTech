@@ -21,6 +21,7 @@ import 'swiper/css/navigation';
 // import required modules
 import 'swiper/css/effect-coverflow';
 import { EffectCards } from 'swiper/modules';
+import { NavLink } from 'react-router-dom';
 
 
 const Catalogo = () => {
@@ -37,10 +38,13 @@ const Catalogo = () => {
            {catalogoJson.map((user) => (
             <div className='catalogo-slider' key={user.id} >
                <SwiperSlide><img src={user.url} className='catalogo-imagenes' /></SwiperSlide>
+               <SwiperSlide><NavLink>Descargar catalogo Completo</NavLink></SwiperSlide>
             </div>
 
         ))}
     
+        
+
         </Swiper>
       </section>
       <section>

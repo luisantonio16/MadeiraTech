@@ -1,11 +1,11 @@
 [
   {
     "id": "image1",
-    "url": "../src/assets/catalogo/1.png"
+    "url": "./../src/assets/catalogo/1.png"
   },
   {
     "id": "image2",
-    "url": "../src/assets/catalogo/2.jpg"
+    "url": "./../src/assets/catalogo/2.jpg"
   },
   {
     "id": "image3",

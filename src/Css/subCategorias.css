@@ -540,7 +540,7 @@ margin-top: 100px;
 .wood-image{
 display: block;
 margin: auto;
-width: 250px;
+width: 270px;
 height: 220px;
 background-image: url('../assets/norxSubCategoria/madera.png');
 background-position: center;
@@ -550,22 +550,22 @@ background-size: cover;
 .wood-image-ipe{
 display: block;
 margin: auto;
-width: 250px;
+width: 270px;
 height: 220px;
 
 }
 .wood-image-Ayous{
 display: block;
 margin: auto;
-width: 250px;
+width: 270px;
 height: 220px;
 
 
 }
 .wood-image-Ash{
 display: block;
-margin: auto;
-width: 250px;
+margin: 20px auto;
+width: 270px;
 height: 220px;
 }
 

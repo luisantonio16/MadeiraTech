@@ -700,10 +700,13 @@ ul li {
         flex-direction: column;
         align-items: center;
     }
-
+    .footer-logos {
+        
+        margin: 30px 0;
+    }
     .footer-logo {
         width: 150px;
-        margin: 5px 0;
+        margin: 10px 0;
     }
 
     .footer-sections {

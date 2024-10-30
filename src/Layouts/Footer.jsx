@@ -51,7 +51,7 @@ const Footer = () => {
                     <div className='footer-sections'>
                         <h2 className="items-one">Contacto</h2>
                         <ul>
-                            <li> <NavLink className='footer-items'><img src={imgFooter4} className='footer-img' />809-999-9999</NavLink></li>
+                            <li> <NavLink className='footer-items'><img src={imgFooter4} className='footer-img' /> 809-999-9999</NavLink></li>
                             <li> <NavLink className='footer-items'><img src={imgFooter3} className='footer-img' /> info@madeiratech.do</NavLink></li>
                         </ul>
 

@@ -174,3 +174,62 @@
 .form-btn:hover{
     background-color: var(--color-secundary);
 }
+
+
+
+
+
+@media (max-width: 790px){
+    .contacto-titulo{
+        font-size: 30px;
+        font-weight: 600;
+        color: var(--color-Primary);
+       text-align: center;
+    }
+    .contacto-container{
+        align-items: center;
+        flex-direction: column;
+        margin: 50px auto;
+        width: 90%;
+        max-width: 1200px;
+        height: auto;
+    }
+    .contact-img{
+        position: relative;
+        display: block;
+        width: 450px;
+        height: 340px;
+        z-index: 4;
+        border-radius: 8px;
+    }
+    .contacto-imagenes::after{
+        content: "";
+        position: absolute;
+        top: 60px;
+        right: -25px;
+        width: 0;
+        height: 0;
+        border: 0px solid var(--color-Primary);
+        z-index: 1;
+        border-radius: 5px;
+    }
+    .form-select{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+    }
+    
+.form-btn{
+    display: block;
+    width: 70%;
+    max-width: 260px;
+    padding: 10px;
+    background-color: var(--color-Primary);
+    color: white;
+    border-radius: 10px;
+    transition: all 5ms ease-out;
+    cursor: pointer;
+}
+}
