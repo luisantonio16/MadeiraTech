@@ -6,10 +6,11 @@
     color: #fff;
     font-size: 1rem;
     font-weight: 300;
-
-    &.active-link--producto {
-      color: var(--color-secundary);
-      font-weight: 700;
-    }
+    margin: 0 1rem;
   }
+}
+
+.active {
+  color: #9c5e35 !important;
+  font-weight: bolder !important;
 }
