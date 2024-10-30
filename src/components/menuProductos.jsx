@@ -1,12 +1,12 @@
-import React from 'react';
-import { Form, NavLink } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import iconPlus from '../assets/plus-naranja.png'
+import '../styles/menuProductos.css'
 
 const MenuProductos = () => {
     return (
         <div className='header-menuProductos'>
             <div className='menu-Productos'>
-                <NavLink to='/maderas-tropicales'  className={({isActive})=> isActive ? 'active-link--producto': 'menu-productos--link'}>
+                <NavLink to='/maderas-tropicales' className={({isActive})=> isActive ? 'active-link--producto': 'menu-productos--link'}>
                     Maderas Tropicales
                     <img src={iconPlus} className='link-plus' />
                 </NavLink>
@@ -17,9 +17,7 @@ const MenuProductos = () => {
                 <NavLink to='/compuestos'  className={({isActive})=> isActive ? 'active-link--producto': 'menu-productos--link'}>
                     Compuestos
                     <img src={iconPlus} className='link-plus' />
-                   
                 </NavLink>
-
             </div>
         </div>
     );

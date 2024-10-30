@@ -1,0 +1,15 @@
+.menu-Productos {
+  & a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 300;
+
+    &.active-link--producto {
+      color: var(--color-secundary);
+      font-weight: 700;
+    }
+  }
+}
