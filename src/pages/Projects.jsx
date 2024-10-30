@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-import "../css/Projects.css";
+import "../styles/Projects.css";
 import Footer from "../components/Footer";
 import VideoEmbed from "../components/VideoEmbed";
 

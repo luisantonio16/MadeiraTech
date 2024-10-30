@@ -1,4 +1,3 @@
-import React from 'react';
 import s1 from '../assets/SliderHome/slidehome1.png'
 import s2 from '../assets/SliderHome/slidehome2.png'
 import s3 from '../assets/SliderHome/slideHome3.jpg'

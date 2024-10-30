@@ -23,7 +23,7 @@ import cat15 from '../assets/catalogo/15.jpg'
 
 
 /*css del catalogo */
-import '../css/catalogo.css'
+import '../styles/catalogo.css'
 
 
 // Import Swiper styles

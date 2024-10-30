@@ -1,8 +1,8 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 
 
 /*Sub Categorias css*/
-import '../css/subCategorias.css'
+import '../styles/subCategorias.css'
 
 /*Imagenes*/
 import heart from "../assets/norxSubCategoria/ayous/icono_organico.png"

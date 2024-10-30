@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import { NavLink } from "react-router-dom";
 import SliderHeader from "../components/sliderHeader";
 import HomeLumber from "../components/homeLumber";
-import "../css/style.css";
+import "../styles/style.css";
 
 /*imagnes */
 import HomeImg from "../assets/home/logoHome.png";

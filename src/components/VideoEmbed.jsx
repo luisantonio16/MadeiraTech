@@ -1,4 +1,4 @@
-import "../css/VideoEmbed.css";
+import "../styles/VideoEmbed.css";
 
 function VideoEmbed({ url, title, horizontal = false }) {
   return (
