@@ -6,13 +6,8 @@
   & .projects-page-header {
     height: 15rem;
     background-image: url("../assets/compuestosPrincipal.jpg");
-    background-color: rgba(
-      0,
-      0,
-      0,
-      0.4
-    ); /* Cambia el valor de opacidad para ajustar la oscuridad */
-    background-blend-mode: multiply; /* Mezcla la capa de color con la imagen */
+    background-color: rgba(0, 0, 0, 0.4);
+    background-blend-mode: multiply;
     background-size: cover;
     background-position: center;
     display: flex;
@@ -33,6 +28,11 @@
     flex-direction: column;
     margin: auto;
     padding: 2rem 0;
+
+    background-image: url("../assets/SectionBackground.png");
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-position: center;
 
     & .video-container {
       margin: 1rem auto;
