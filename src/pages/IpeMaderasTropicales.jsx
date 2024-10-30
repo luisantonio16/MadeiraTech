@@ -1,9 +1,9 @@
 import { useState } from 'react';
 
-/*Sub Categorias css*/
+/* Sub Categorías css */
 import '../styles/subCategorias.css'
 
-/*Imagenes*/
+/* Imágenes */
 import heart from "../assets/norxSubCategoria/Heart_Norx.png"
 import heart1 from "../assets/norxSubCategoria/virus_ipe.png"
 import heart2 from "../assets/norxSubCategoria/storm_ipe.png"
@@ -15,10 +15,8 @@ import arrow from '../assets/norxSubCategoria/arrow.png'
 import norx1 from '../assets/norxSubCategoria/etiquetas_cumaru_ipe.png'
 import norx2 from '../assets/norxSubCategoria/longituds_IPE_CUMARU.png'
 
-
 import { NavLink } from 'react-router-dom';
 import Footer from '../components/Footer';
-
 
 const IpeMaderasTropicales = () => {
     const [openIndex, setOpenIndex] = useState(null);

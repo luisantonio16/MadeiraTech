@@ -47,7 +47,7 @@ const Norx = () => {
 
             <section className='sub-categorias--informacion'>
                 <div className="design-container">
-                    <div >
+                    <div>
                       <img className="wood-image-Ash" src={ashMadera}  />
                     </div>
 

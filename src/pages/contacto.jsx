@@ -35,7 +35,7 @@ const Contacto = () => {
                                 <option value="someOption">Profesión</option>
                                 <option value="otherOption">Arquitecto</option>
                                 <option value="otherOption">Ingeniero Civil</option>
-                                <option value="otherOption">Gerente de Construccion</option>
+                                <option value="otherOption">Gerente de Construcción</option>
                                 <option value="otherOption">Diseñador de Interiores</option>
                                 <option value="otherOption">Decorador de Interiores</option>
                                 <option value="otherOption">Contratista General</option>
@@ -83,9 +83,9 @@ const Contacto = () => {
                             </select>
                             <select  className='select'>
                                 <option value="someOption">Tiempo Proyecto</option>
-                                <option value="otherOption">Planificación  y Conceptualización</option>
+                                <option value="otherOption">Planificación y Conceptualización</option>
                                 <option value="otherOption">Reconstrucción</option>
-                                <option value="otherOption">Construcción  en Pogreso</option>
+                                <option value="otherOption">Construcción en Progreso</option>
                                 <option value="otherOption">Diseño</option>
                             </select>
                             <select  className='select'>
