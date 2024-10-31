@@ -503,4 +503,9 @@
     width: 22px;
     margin-left: 12px;
   }
+
+  .menu-Productos > .menu-Productos-juntos{
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
 }
