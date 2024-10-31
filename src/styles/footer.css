@@ -29,7 +29,10 @@
   width: 180px;
   margin: 10px 0;
 }
-
+.footer-logo1{
+ width: 140px;
+ margin-left: 15px;
+}
 .footer-sections {
   display: block;
   align-items: center;

@@ -120,10 +120,10 @@ const Norx = () => {
                             tradicional, pero con la resistencia, longevidad y
                             sostenibilidad adicionales de un material
                             compuesto. Material resistente al moho, manchas,
-                            rayones, podredumbre, grietas y mucho.
+                            rayones, podredumbre, grietas y mucho más.
                             Nuestra plataforma compuesta es lo suficientemente
                             fuerte como para soportar todo lo que
-                            su vida al aire libre le depare. Estos es tan compuestos
+                            su vida al aire libre le depare. Están compuestos
                             de 95% de material reciclado.</p>
 
                     </div>

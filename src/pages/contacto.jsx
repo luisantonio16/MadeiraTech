@@ -18,13 +18,13 @@ const Contacto = () => {
                     </div>
                     <form className='form'>
                         <div className='form-inpunts'>
-                            <input type="text" placeholder='Nombre*' className='inpunts' />
+                            <input type="text" placeholder='Nombre*' name="nombre" className='inpunts' />
                         </div>
                         <div className='form-inpunts'>
-                            <input type="text" placeholder='Apellidos*' className='inpunts' />
+                            <input type="text" placeholder='Apellidos*' name="apellido" className='inpunts' />
                         </div>
                         <div className='form-inpunts'>
-                            <input type="text" placeholder='Teléfono*' className='inpunts' />
+                            <input type="text" placeholder='Teléfono*' name="telefono" className='inpunts' />
                         </div>
 
                         <div className='form-inpunts'>
@@ -32,61 +32,61 @@ const Contacto = () => {
                         </div>
                         <div className='form-inpunts'>
                             <select  className='inpunts'>
-                                <option value="someOption">Profesión</option>
-                                <option value="otherOption">Arquitecto</option>
-                                <option value="otherOption">Ingeniero Civil</option>
-                                <option value="otherOption">Gerente de Construcción</option>
-                                <option value="otherOption">Diseñador de Interiores</option>
-                                <option value="otherOption">Decorador de Interiores</option>
-                                <option value="otherOption">Contratista General</option>
-                                <option value="otherOption">Artista de la Madera</option>
-                                <option value="otherOption">Dueño de inmuebles</option>
-                                <option value="otherOption">Otro</option>
+                                <option name="profesion"  value="someOption">Profesión</option>
+                                <option name="profesion"  value="otherOption">Arquitecto</option>
+                                <option name="profesion"  value="otherOption">Ingeniero Civil</option>
+                                <option name="profesion"  value="otherOption">Gerente de Construcción</option>
+                                <option name="profesion"  value="otherOption">Diseñador de Interiores</option>
+                                <option name="profesion"  value="otherOption">Decorador de Interiores</option>
+                                <option name="profesion"  value="otherOption">Contratista General</option>
+                                <option name="profesion"  value="otherOption">Artista de la Madera</option>
+                                <option name="profesion"  value="otherOption">Dueño de inmuebles</option>
+                                <option name="profesion"  value="otherOption">Otro</option>
                             </select>
                         </div>
 
                         <div className='form-inpunts'>
                             <select  className='inpunts'>
-                                <option value="someOption">Ubicación</option>
-                                <option value="otherOption">Región Norte</option>
-                                <option value="otherOption">Región Este</option>
-                                <option value="otherOption">Región Sur</option>
-                                <option value="otherOption">Distrito Nacional</option>
-                                <option value="otherOption">Santo Domingo</option>
-                                <option value="otherOption">Internacional</option>
-                                <option value="otherOption">Otro</option>
+                                <option name="ubicacion"  value="someOption">Ubicación</option>
+                                <option name="ubicacion"  value="otherOption">Región Norte</option>
+                                <option name="ubicacion"  value="otherOption">Región Este</option>
+                                <option name="ubicacion"  value="otherOption">Región Sur</option>
+                                <option name="ubicacion"  value="otherOption">Distrito Nacional</option>
+                                <option name="ubicacion"  value="otherOption">Santo Domingo</option>
+                                <option  name="ubicacion" value="otherOption">Internacional</option>
+                                <option name="ubicacion"  value="otherOption">Otro</option>
                             </select>
                         </div>
                         <div className='form-inpunts'>
                             <select  className='inpunts'>
-                                <option value="someOption">Aplicación</option>
-                                <option value="otherOption">Pisos de Terraza</option>
-                                <option value="otherOption">Mobiliario</option>
-                                <option value="otherOption">Estructural</option>
-                                <option value="otherOption">Fachada</option>
-                                <option value="otherOption">Puertas</option>
-                                <option value="otherOption">Revestimientos Interiores</option>
-                                <option value="otherOption">Pasarelas o Pavimento exterior</option>
-                                <option value="otherOption">Otro</option>
+                                <option name="aplicacion"  value="someOption">Aplicación</option>
+                                <option name="aplicacion" value="otherOption">Pisos de Terraza</option>
+                                <option name="aplicacion" value="otherOption">Mobiliario</option>
+                                <option name="aplicacion" value="otherOption">Estructural</option>
+                                <option name="aplicacion" value="otherOption">Fachada</option>
+                                <option name="aplicacion" value="otherOption">Puertas</option>
+                                <option name="aplicacion" value="otherOption">Revestimientos Interiores</option>
+                                <option name="aplicacion" value="otherOption">Pasarelas o Pavimento exterior</option>
+                                <option name="aplicacion" value="otherOption">Otro</option>
                             </select>
                         </div>
 
                         <div className='form-select'>
                             <select  className='select'>
-                                <option value="someOption">Tipo Proyecto</option>
-                                <option value="otherOption">Proyecto Comercial Retail</option>
-                                <option value="otherOption">Proyecto inmobiliario Residencial</option>
-                                <option value="otherOption">Proyecto Público </option>
-                                <option value="otherOption">Proyecto de remodelación </option>
-                                <option value="otherOption">Proyecto turístico </option>
-                                <option value="otherOption">Otro</option>
+                                <option name="tipoProyecto" value="someOption">Tipo Proyecto</option>
+                                <option name="tipoProyecto" value="otherOption">Proyecto Comercial Retail</option>
+                                <option name="tipoProyecto" value="otherOption">Proyecto inmobiliario Residencial</option>
+                                <option name="tipoProyecto" value="otherOption">Proyecto Público </option>
+                                <option name="tipoProyecto" value="otherOption">Proyecto de remodelación </option>
+                                <option name="tipoProyecto" value="otherOption">Proyecto turístico </option>
+                                <option name="tipoProyecto" value="otherOption">Otro</option>
                             </select>
                             <select  className='select'>
-                                <option value="someOption">Tiempo Proyecto</option>
-                                <option value="otherOption">Planificación y Conceptualización</option>
-                                <option value="otherOption">Reconstrucción</option>
-                                <option value="otherOption">Construcción en Progreso</option>
-                                <option value="otherOption">Diseño</option>
+                                <option name="tiempoProyecto" value="someOption">Tiempo Proyecto</option>
+                                <option name="tiempoProyecto" value="otherOption">Planificación y Conceptualización</option>
+                                <option name="tiempoProyecto" value="otherOption">Reconstrucción</option>
+                                <option name="tiempoProyecto" value="otherOption">Construcción en Progreso</option>
+                                <option name="tiempoProyecto" value="otherOption">Diseño</option>
                             </select>
                             <select  className='select'>
                                 <option value="someOption">Pies cuadrados de proyecto</option>

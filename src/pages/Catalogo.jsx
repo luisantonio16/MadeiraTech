@@ -19,6 +19,7 @@ import cat12 from '../assets/catalogo/12.jpg'
 import cat13 from '../assets/catalogo/13.jpg'
 import cat14 from '../assets/catalogo/14.jpg'
 import cat15 from '../assets/catalogo/15.jpg'
+import cat16 from '../assets/catalogo/16.jpg'
 
 
 
@@ -37,15 +38,15 @@ import 'swiper/css/navigation';
 import 'swiper/css/effect-coverflow';
 import { EffectCards } from 'swiper/modules';
 
-const pdfUrl = '../assets/catalogo/catalogoMadeiraTech.pdf';
-
 
 const Catalogo = () => {
-  const [showPdf, setShowPdf] = useState(false);
+  const [showPDF, setShowPDF] = useState(false);
 
   const handleClick = () => {
-      setShowPdf(true);
+    window.open('../../public/catalogoMadeiraTech.pdf', '_blank');
   };
+
+
   return (
     <section className='catalogo'>
       <section className='catalogo-container'>
@@ -71,14 +72,14 @@ const Catalogo = () => {
           <SwiperSlide><img src={cat13} className='catalogo-imagenes' /></SwiperSlide>
           <SwiperSlide><img src={cat14} className='catalogo-imagenes' /></SwiperSlide>
           <SwiperSlide><img src={cat15} className='catalogo-imagenes' /></SwiperSlide>
-          <SwiperSlide className='catalogo-boton'><button onClick={handleClick} className='catalogo-btn'>Vizualizar catalogo Completo</button>
-          {showPdf && <PdfViewer pdfUrl={pdfUrl} />}</SwiperSlide>
-
-
-
-
-
+          <SwiperSlide><img src={cat16} className='catalogo-imagenes' /></SwiperSlide>
         </Swiper>
+ 
+
+      </section>
+      <section className='catalogo-button'>
+         <button onClick={handleClick} className='catalogo-btn' >Vizualizar catalogo Completo</button>
+         
       </section>
       <section>
         <Footer />

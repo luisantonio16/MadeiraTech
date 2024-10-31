@@ -97,21 +97,7 @@ const SliderHeader = () => {
                     </div>
                     <img src={s4} className='slider-imagen' />
                 </SwiperSlide >
-                <SwiperSlide className='slider-container'>
-                    <div className='slider-texto'>
-                        <h2 className='slider-titulo'>
-                            Sobre Nosotros
-                        </h2>
-                        <p className='slider-parrafo'>
-                        Somos los principales distribuidores de maderas decorativas
-                        en el mercado dominicano.
-                        </p>
-                        <NavLink to='/about' className='slider-btn' >
-                            Leer más
-                        </NavLink>
-                    </div>
-                    <img src={s1} className='slider-imagen' />
-                </SwiperSlide>
+              
             </Swiper>
         </section>
     );

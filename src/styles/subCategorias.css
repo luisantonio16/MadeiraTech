@@ -201,14 +201,9 @@ margin-top: 190px;
   width: 200px;
   margin: 5px;
   font-size: 18px;
-  color: var(--color-Primary);
-  letter-spacing: .2rem;
-  -webkit-text-stroke: .1rem #00000080;
-  /* text-shadow: 
-    -1px -1px 0 #00000080,
-    1px -1px 0 #00000080,
-    -1px 1px 0 #00000080,
-    1px 1px 0 #00000080; */
+  color: var(--color-secundary);
+
+
 }
 
 .circle-imagenes{

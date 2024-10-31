@@ -16,7 +16,7 @@ const Footer = () => {
         <div className="footer-rows">
           <div className="footer-logos">
             <img src={imgFooter1} className="footer-logo" />
-            <img src={imgFooter2} className="footer-logo" />
+            <img src={imgFooter2} className="footer-logo footer-logo1" />
           </div>
           <div className="footer-sections">
             <NavLink to="/" className="items-one">
@@ -53,8 +53,8 @@ const Footer = () => {
             <h2 className="items-one"> Subcategorías</h2>
             <ul>
               <li>
-                <NavLink to="/compuestos/norx" className="footer-items">
-                  Norx
+              <NavLink to="/maderas-tropicales/ipe" className="footer-items">
+                  Ipé
                 </NavLink>
               </li>
               <li>
@@ -81,9 +81,10 @@ const Footer = () => {
                 </NavLink>
               </li>
               <li>
-                <NavLink to="/maderas-tropicales/ipe" className="footer-items">
-                  Ipé
+              <NavLink to="/compuestos/norx" className="footer-items">
+                  Norx
                 </NavLink>
+               
               </li>
             </ul>
           </div>
