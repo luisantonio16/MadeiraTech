@@ -4,8 +4,12 @@ import { NavLink } from "react-router-dom";
 import imgFooter1 from "../assets/home/maderaLogoBlanco.png";
 import imgFooter2 from "../assets/home/lumberPlusLogoBlanco.png";
 
-import imgFooter3 from "../assets/iconoMail.png";
-import imgFooter4 from "../assets/iconoWS.png";
+import imgFooter3 from "../assets/e-mail-w.png";
+import imgFooter4 from "../assets/whatsapp-w.png";
+import facebookIcon from "../assets/facebook-w.png";
+import instagramIcon from "../assets/instagram-w.png";
+import linkedinIcon from "../assets/linkedin-w.png";
+import tiktokIcon from "../assets/tik-tok-w.png";
 
 import "../styles/footer.css";
 
@@ -103,6 +107,30 @@ const Footer = () => {
                 </NavLink>
               </li>
             </ul>
+            <div>
+              <ul className="social-icon-link">
+                <li>
+                  <a href="https://www.instagram.com/madeiratech_?igsh=MTdsZTBjYWZpZjQ3NA==" className="footer-items" target="_blank" rel="noopener noreferrer">
+                    <img src={instagramIcon} className="footer-img" alt="Instagram" />
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.linkedin.com/company/madeiratech/" className="footer-items" target="_blank" rel="noopener noreferrer">
+                    <img src={linkedinIcon} className="footer-img" alt="LinkedIn" />
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.tiktok.com/@madeiratech?_t=8r0nb1wpe7B&_r=1" className="footer-items" target="_blank" rel="noopener noreferrer">
+                    <img src={tiktokIcon} className="footer-img" alt="TikTok" />
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.facebook.com/share/TygV3j9iWifvADNG/?mibextid=LQQJ4d" className="footer-items" target="_blank" rel="noopener noreferrer">
+                    <img src={facebookIcon} className="footer-img" alt="Facebook" />
+                  </a>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>

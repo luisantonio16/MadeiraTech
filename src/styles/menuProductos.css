@@ -14,3 +14,34 @@
   color: #9c5e35 !important;
   font-weight: bolder !important;
 }
+
+.social-icon-link{
+  display: flex;
+  gap: 10px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.header-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  color: white;
+  margin: 10px auto;
+  padding: 10px;
+  font-weight: 300;
+  transition: all 300ms ease;
+}
+.menu-social-links{
+  display: flex;
+  align-items: center;
+  margin-left: clamp(1rem, 19%, 12rem);
+}
+
+@media (max-width: 800px) {
+  .menu-social-links {
+    display: none;
+  }
+}

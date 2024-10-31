@@ -236,33 +236,39 @@ margin-top: 190px;
 .circle-left{
   position: absolute;
   top: 20px;
-  left: 350px;
+  left: 50%;
+  transform: translateX(-200%);
 }
 .circle-right{
   position: absolute;
   top: 20px;
-  right: 350px;
+  right: 50%;
+  transform: translateX(200%);
 }
 .circle-top{
   position: absolute;
   top: -180px;
-  left: 44%;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .circle-bottom-left{
   position: absolute;
   bottom: 20px;
-  left: 280px;
+  left: 50%;
+  transform: translateX(-200%);
 }
 .circle-bottom-right{
   position: absolute;
   bottom: 20px;
-  right: 280px;
+  right: 50%;
+  transform: translateX(200%);
 }
 .circle-bottom{
   position: absolute;
   bottom: -200px;
-  left: 44%;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .sub-categorias-contact{
@@ -619,31 +625,37 @@ height: 220px;
   position: static;
   top: -100px;
   left: -25px;
+  transform: none;
 }
 .circle-right{
   position: static;
   bottom: -400px;
   right: 200px;
+  transform: none;
 }
 .circle-top{
   position: static;
   top: -100px;
   right: -130px;
+  transform: none;
 }
 
 .circle-bottom-left{
   position: static;
   bottom: 20px;
   left: 280px;
+  transform: none;
 }
 .circle-bottom-right{
   position: static;
   bottom: 20px;
   right: 280px;
+  transform: none;
 }
 .circle-bottom{
   position: static;
   bottom: -150px;
   right: 10px;
+  transform: none;
 }
 }

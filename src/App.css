@@ -74,6 +74,9 @@
   padding: 20px;
   overflow: hidden;
   background-color: var(--color-Primary);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 .menu-Productos {
   display: flex;
