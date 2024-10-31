@@ -80,6 +80,12 @@
   justify-content: end;
   align-items: center;
 }
+
+.menu-Productos > .menu-Productos-juntos{
+  display: flex;
+  text-wrap: nowrap;
+}
+
 .menu-productos--link {
   display: flex;
   justify-content: center;

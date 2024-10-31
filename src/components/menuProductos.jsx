@@ -6,24 +6,26 @@ const MenuProductos = () => {
   return (
     <div className="header-menuProductos">
       <div className="menu-Productos">
-        <NavLink
-          to="/maderas-tropicales"
-          className={({ isActive }) =>
-            isActive ? "active menu-productos-active" : ""
-          }
-        >
-          Maderas Tropicales
-          <img src={iconPlus} className="link-plus" />
-        </NavLink>
-        <NavLink
-          to="/thermowood"
-          className={({ isActive }) =>
-            isActive ? "active menu-productos-active" : ""
-          }
-        >
-          Thermowood
-          <img src={iconPlus} className="link-plus" />
-        </NavLink>
+        <div className="menu-Productos-juntos">
+          <NavLink
+            to="/maderas-tropicales"
+            className={({ isActive }) =>
+              isActive ? "active menu-productos-active" : ""
+            }
+          >
+            Maderas Tropicales
+            <img src={iconPlus} className="link-plus" />
+          </NavLink>
+          <NavLink
+            to="/thermowood"
+            className={({ isActive }) =>
+              isActive ? "active menu-productos-active" : ""
+            }
+          >
+            Thermowood
+            <img src={iconPlus} className="link-plus" />
+          </NavLink>
+        </div>
         <NavLink
           to="/compuestos"
           className={({ isActive }) =>

@@ -836,6 +836,7 @@ ul li {
     flex-direction: column;
     width: 100%;
     text-align: center;
+    z-index: 2;
   }
   .slider-titulo {
     color: white;
