@@ -91,7 +91,7 @@ const Contacto = () => {
                             <select  className='select'>
                                 <option value="someOption">Pies cuadrados de proyecto</option>
                                 <option value="otherOption">5-15 m2</option>
-                                <option value="otherOption">{"15'30 m2"}</option>
+                                <option value="otherOption">15-30 m2</option>
                                 <option value="otherOption">30m2 o mas</option>
                             </select>
 
