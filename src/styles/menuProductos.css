@@ -37,7 +37,7 @@
 .menu-social-links{
   display: flex;
   align-items: center;
-  margin-left: clamp(1rem, 19%, 12rem);
+  margin-left: clamp(1rem, 15%, 9.5rem);
 }
 
 @media (max-width: 800px) {
