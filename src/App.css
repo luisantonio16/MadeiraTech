@@ -465,10 +465,22 @@
   }
 
   .menu-Productos {
-    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     margin: auto;
     width: 100%;
   }
+  
+  .menu-Productos > .opcion {
+    flex: 1 1 45%;
+    margin: 5px;
+  }
+
+  .menu-Productos > .opcion:nth-child(3) {
+    flex-basis: 100%;
+  }
+
   .menu-productos--link {
     color: #fff;
     font-size: 16px;
