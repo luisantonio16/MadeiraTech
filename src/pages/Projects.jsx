@@ -41,7 +41,7 @@ const Projects = () => {
         </div>
         <div className="video-container">
           <VideoEmbed
-            url={"https://www.youtube.com/embed/9O63HPqyni0"}
+            url={"https://www.youtube.com/embed/mxUWCMtddiI?si=koeJbRZ8Bkk0-Hnl"}
             title={"Compuestos vertical"}
           />
         </div>
@@ -53,7 +53,7 @@ const Projects = () => {
         <h3>Proyectos realizados con Maderas Tropicales</h3>
         <div className="video-container">
           <VideoEmbed
-            url={"https://www.youtube.com/embed/mxUWCMtddiI"}
+            url={"https://www.youtube.com/embed/yY3URB028bA?si=QU-j5rjdZSDh5h2Z"}
             title={"Maderas Tropicales horizontal"}
             horizontal
           />
