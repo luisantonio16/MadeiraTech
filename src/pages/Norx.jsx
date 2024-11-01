@@ -115,7 +115,7 @@ const Norx = () => {
                         </div>
                     </div>
                     <div className="sub-categorias-texto">
-                        <h2>Caracteristicas Principales</h2>
+                        <h2>Características Principales</h2>
                         <p>Tienen el aspecto y el tacto de la madera
                             tradicional, pero con la resistencia, longevidad y
                             sostenibilidad adicionales de un material

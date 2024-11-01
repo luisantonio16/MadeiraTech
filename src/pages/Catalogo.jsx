@@ -43,7 +43,7 @@ const Catalogo = () => {
   const [showPDF, setShowPDF] = useState(false);
 
   const handleClick = () => {
-    window.open('../../public/catalogoMadeiraTech.pdf', '_blank');
+    window.open('/catalogoMadeiraTech.pdf', '_blank');
   };
 
 
@@ -78,7 +78,7 @@ const Catalogo = () => {
 
       </section>
       <section className='catalogo-button'>
-         <button onClick={handleClick} className='catalogo-btn' >Vizualizar catalogo Completo</button>
+         <button onClick={handleClick} className='catalogo-btn' >VISUALIZAR CATÁLOGO COMPLETO</button>
          
       </section>
       <section>

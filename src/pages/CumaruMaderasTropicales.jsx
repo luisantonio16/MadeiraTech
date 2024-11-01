@@ -127,7 +127,7 @@ const IpeMaderasTropicales = () => {
                     </div>
                 </div>
                 <div className="sub-categorias-texto">
-                    <h2>Caracteristicas Principales</h2>
+                    <h2>Características Principales</h2>
                     <p>Se considera una madera de alta durabilidad, clasificada como muy resistente a la intemperie y a los ataques de insectos y hongos, lo que la hace ideal para uso exterior, como terrazas y mobiliario de jardín.</p>
 
                 </div>

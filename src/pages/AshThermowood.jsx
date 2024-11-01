@@ -113,7 +113,7 @@ const Norx = () => {
                         </div>
                     </div>
                     <div className="sub-categorias-texto">
-                        <h2>Caracteristicas Principales</h2>
+                        <h2>Características Principales</h2>
                         <p>El arce ceniza (también conocido como arce blanco, arce de ceniza o ash tree en inglés) es un árbol perteneciente al género Fraxinus, que es parte de la familia de las oleáceas. Pueden alcanzar entre 15 a 30 metros de altura. Thermowood Ash es un material esencial en la carpintería, gracias a su increíble durabilidad. El fresno termotratado es una madera dura con un alto número de anillos de crecimiento y presenta una apariencia estética con su textura ondulada y fina, lo que la hace ideal para muebles, pisos y elementos de construcción.</p>
 
                     </div>

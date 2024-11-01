@@ -28,7 +28,9 @@ const HomeLumber = () => {
           </div>
         </div>
         <div data-aos="fade-left" data-aos-delay="300" className="lumber-textos">
-         <img src={lumberPlusLogo} className="lumberPlusLogo" />
+          <a href="https://lumberplus.com/" target="_blank" rel="noopener noreferrer">
+            <img src={lumberPlusLogo} className="lumberPlusLogo" />
+          </a>
           <p>
             Lumber + es una marca estadounidense de
             gran prestigio en el mercado, dedicada a la
