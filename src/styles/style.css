@@ -467,6 +467,16 @@ ul li {
 
 /* Responsividad para tablets y pantallas medianas */
 @media (max-width: 1024px) {
+  .five-enlace-one {
+    position: absolute;
+    top: 120px;
+    left: 40%;
+  }
+  .five-enlace-two {
+    position: absolute;
+    top: 260px;
+    right: 5%;
+  }
   .about-footer {
     flex-direction: column;
   }
@@ -524,6 +534,17 @@ ul li {
 
 /* Estilos para dispositivos móviles */
 @media (max-width: 790px) {
+  .five-enlace-one {
+    position: absolute;
+    top: 30px;
+    left: 40%;
+  }
+  .five-enlace-two {
+    position: absolute;
+    top: 100px;
+    right: 5%;
+  }
+
   .header-container {
     width: 100%;
     position: relative;

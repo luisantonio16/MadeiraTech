@@ -97,7 +97,7 @@ const Footer = () => {
             <ul className="text-white md:text-inherit">
               <li>
                 <NavLink className="footer-items">
-                  <img src={imgFooter4} className="footer-img" /> 809-999-9999
+                  <img src={imgFooter4} className="footer-img" /> 849-512-4025
                 </NavLink>
               </li>
               <li>
