@@ -94,12 +94,14 @@ const Footer = () => {
           </div>
           <div className="footer-sections">
             <h2 className="items-one">Contacto</h2>
-            <ul className="text-white md:text-inherit">
+            <ul className="social-icon-link">
               <li>
-                <NavLink className="footer-items">
+                <a href="https://wa.link/n26gqr" className="footer-items" target="_blank" rel="noopener noreferrer">
                   <img src={imgFooter4} className="footer-img" /> 849-512-4025
-                </NavLink>
+                  </a>
               </li>
+            </ul>
+            <ul className="text-white md:text-inherit">
               <li>
                 <NavLink className="footer-items">
                   <img src={imgFooter3} className="footer-img" />
